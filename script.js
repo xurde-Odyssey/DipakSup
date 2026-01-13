@@ -1,0 +1,271 @@
+const translations = {
+    en: {
+        nav_home: "Home",
+        nav_filters: "Bio-Sand Filters",
+        nav_tools: "Agricultural Tools",
+        nav_benches: "Cement Benches",
+        nav_contact: "Contact Us",
+        hero_title: "Dipak Suppliers",
+        hero_desc: "We provide high-quality bio-sand filters and agricultural tools for your community. Certified solutions for health and productivity.",
+        stat_happy_clients: "Happy Clients",
+        stat_experience: "Years Experience",
+        stat_quality: "Quality Guarantee",
+        hero_cta_products: "View Our Products",
+        hero_cta_contact: "Contact Us",
+        about_title: "Who We Are?",
+        about_text: "At Dipak Suppliers, we are committed to community, quality, and sustainability. As a local business, we understand the specific needs of our farmers and families. We provide durable tools and effective water purification solutions to improve health and productivity in our region.",
+        filter_page_title: "Pure Water",
+        filter_page_subtitle: "Bio-Sand Filter: Natural and Effective.",
+        filter_what_title: "What is a Bio-Sand Filter?",
+        filter_what_desc1: "The bio-sand filter is a variation of the traditional slow sand filter, which has been used for community water treatment for over 200 years. It is small and designed for household use.",
+        filter_what_desc2: "This filter works through a natural process. Water is poured into the top and passes through layers of sand and gravel. A biological layer called 'schmutzdecke' develops on top of the sand which destroys parasites, while the sand removes particles and turbidity.",
+        benefits_title: "Key Benefits",
+        mechanism_title: "How it Removes Bacteria?",
+        mec_1_title: "Trapping",
+        mec_1_desc: "Debris and pathogens get trapped in the sand as water flows through.",
+        mec_2_title: "Predation",
+        mec_2_desc: "Microorganisms in the biolayer eat smaller pathogens.",
+        mec_3_title: "Adsorption",
+        mec_3_desc: " viruses get stuck to sand grains due to electrical charge.",
+        mec_4_title: "Natural Death",
+        mec_4_desc: "Pathogens die due to lack of food and oxygen deep in the sand.",
+        use_title: "Method of Use",
+        use_step_1: "Place a clean vessel under the filter tap.",
+        use_step_2: "Open the lid and pour water slowly from the top.",
+        use_step_3: "Water filters through and collects in the vessel below.",
+        use_step_4: "Keep the area and vessels clean to avoid contamination.",
+        use_step_5: "Concrete: 25-30L/hr, Plastic: 15-20L/hr. Sufficient for a large family.",
+        filter_cta_title: "Ready for Clean Water?",
+        filter_cta_desc: "Ordering is easy. We provide local delivery and installation support. Contact us today or learn more.",
+        cta_get_price: "Get Price",
+
+        // Benefits
+        benefit_1_title: "Low Cost",
+        benefit_1_desc: "Affordable one-time investment for long-term solution. No expensive replacement parts needed.",
+        benefit_2_title: "No Chemicals",
+        benefit_2_desc: "Uses completely natural process to clean water. No chlorine or chemical taste.",
+        benefit_3_title: "Easy Maintenance",
+        benefit_3_desc: "Easy to operate and clean. Just pour water and collect clean water.",
+        benefit_4_title: "Proven Results",
+        benefit_4_desc: "Effectively reduces parasites, bacteria and turbidity, providing safe drinking water.",
+
+        // Reviews
+        review_title: "Customer Reviews",
+        review_1_text: "Bio-sand filter changed our life. Clean water at home!",
+        review_2_text: "Excellent agricultural tools. Very durable and modern.",
+        review_3_text: "Time and labor saving design giving good grip to user.",
+        review_4_text: "Excellent service and fast delivery. Will buy again!",
+        local_guide: "Local Guide",
+        reviews_count: " reviews",
+        posted_on: "Posted on Google",
+
+        // Manual
+        user_manual_title: "User Manual",
+        download_manual_btn: "View User Manual",
+        manual_desc: "Download our detailed guide on how to use and maintain your Bio-Sand Filter.",
+
+        tools_page_title: "Solutions for Farmers",
+        tools_page_subtitle: "Safe Crop, Satisfied Farmer",
+        tools_main_title: "Modern Agricultural Tools",
+        tools_plow_title: "Agricultural Plow",
+        cta_inquiry: "Inquiry About Orders",
+        bench_page_title: "Cement Benches",
+        bench_page_subtitle: "Prepared for maximum durability using high-quality concrete.",
+        bench_intro_title: "Strong and Durable",
+        bench_cta_title: "Strong and Durable for Garden",
+        bench_cta_desc: "Prepared for maximum durability for the garden.",
+        cta_get_quote: "Get a Quote",
+        contact_page_title: "Stay in Touch",
+        contact_page_subtitle: "We love to hear your suggestions.",
+        contact_about_title: "About Us",
+        contact_info_title: "Contact Information",
+        contact_feedback_title: "Give us a feedback"
+    },
+    ne: {
+        nav_home: "होम",
+        nav_filters: "बायो-स्यान्ड फिल्टर",
+        nav_tools: "कृषि उपकरणहरू",
+        nav_benches: "सिमेन्ट बेन्च",
+        nav_contact: "सम्पर्क",
+        hero_title: "दीपक सप्लायर्स",
+        hero_desc: "हामी तपाईंको समुदायलाई उच्च गुणस्तरको बायो-स्यान्ड फिल्टर र कृषि उपकरणहरू प्रदान गर्दछौं। स्वास्थ्य र उत्पादकताको लागि प्रमाणित समाधान।",
+        stat_happy_clients: "खुसी ग्राहकहरू",
+        stat_experience: "वर्षको अनुभव",
+        stat_quality: "गुणस्तर ग्यारेन्टी",
+        hero_cta_products: "हाम्रो उत्पादनहरू हेर्नुहोस्",
+        hero_cta_contact: "सम्पर्क गर्नुहोस्",
+        about_title: "हामी को हौं ?",
+        about_text: "दीपक सप्लायर्समा, हामी समुदाय, गुणस्तर र दिगोपनप्रति प्रतिबद्ध छौं। स्थानीय व्यवसायको रूपमा, हामी हाम्रा किसान र परिवारहरूको विशिष्ट आवश्यकताहरू बुझ्छौं। हामी हाम्रो क्षेत्रमा स्वास्थ्य र उत्पादकता सुधार गर्न टिकाउ उपकरणहरू र प्रभावकारी पानी शुद्धीकरण समाधानहरू प्रदान गर्दछौं।",
+        filter_page_title: "शुद्ध पानी",
+        filter_page_subtitle: "बायो-स्यान्ड फिल्टर: प्राकृतिक र प्रभावकारी।",
+        filter_what_title: "बायो-स्यान्ड फिल्टर के हो?",
+        filter_what_desc1: "बायो-स्यान्ड फिल्टर परम्परागत ढिलो बालुवा फिल्टरको एक रूप हो, जुन २०० वर्षभन्दा बढी समयदेखि सामुदायिक पानी उपचारका लागि प्रयोग हुँदै आएको छ। यो सानो छ र घरघरायसी प्रयोगका लागि उपयुक्त हुने गरी बनाइएको छ।",
+        filter_what_desc2: "यो फिल्टर प्राकृतिक प्रक्रिया मार्फत काम गर्दछ। पानी माथिबाट हालिन्छ र बालुवा र गिट्टीको तहहरू पार गर्दछ। बालुवाको माथि 'स्मुजडेक' (schmutzdecke) भनिने जैविक तह विकास हुन्छ जसले परजीवीहरूलाई नष्ट गर्दछ, जबकि बालुवाले कणहरू र धमिलोपन हटाउँछ।",
+        benefits_title: "मुख्य फाइदाहरू",
+        mechanism_title: "बायोस्याण्ड फिल्टरले कसरी जीवाणु हटाउँदछ ?",
+        mec_1_title: "१. अड्कने प्रकृया",
+        mec_1_desc: "वालुवाबाट पानीको प्रवाह हुँदा पानीमा भएका फोहोरहरु र जिवाणुहरु बालुवाको माथिल्लो सतहको कणमा नै अड्कन्छ ।",
+        mec_2_title: "२. जिवाणुले जिवाणुलाई खाने प्रकृया",
+        mec_2_desc: "फिल्टरमा विकास हुने बायोफिल्ममा रहने ठूला जिवाणुहरुले अन्य साना जिवाणुलाई खानाको रुपमा खान्छन ।",
+        mec_3_title: "३. टाँसिने प्रकृया",
+        mec_3_desc: "पानीमा रहेका केही जीवाणुहरु बालुवाका कणहरुमा टाँसिदा (+र – चार्जका कारण) फिल्टर गरिएको पानीमा आउन सक्दैनन् ।",
+        mec_4_title: "४. प्राकृतिक मृत्युको प्रकृया",
+        mec_4_desc: "केही जीवाणुहरु पर्याप्त खाना वा अक्सिजनको कमीले वा आयु सकिएर मर्दछन् ।",
+        use_title: "प्रयोग गर्ने विधि",
+        use_step_1: "फिल्टर भएर आएको पानी जम्मा गर्ने भाँडो फिल्टरको टुटी तल थाप्ने ।",
+        use_step_2: "फिल्टरको बिर्को खोली माथिबाट बिस्तारै पानी खन्याउने ।",
+        use_step_3: "पानी फिल्टरबाट छानिएर टुटी तल थापिराखेको भाँडोमा जम्मा हुन्छ ।",
+        use_step_4: "जैविक प्रदूषणबाट बच्न फिल्टर वरपर र पानी जम्मा गर्ने भाँडा सफा राख्नु पर्छ ।",
+        use_step_5: "कङ्क्रिट बायोस्याण्ड फिल्टरले प्रति घण्टा २५–३० लिटर र प्लाष्टिक बायोस्याण्ड फिल्टरले प्रति घण्टा १५–२० लिटर पानी छान्छ, जुन ठूलो परिवारको लागि पनि पिउन र खाना पकाउन पर्याप्त हुन्छ ।",
+        filter_cta_title: "सफा पानीको लागि तयार हुनुहुन्छ?",
+        filter_cta_desc: "अर्डर गर्न सजिलो छ। हामी स्थानीय डेलिभरी र जडान सहयोग प्रदान गर्छौं। आजै हामीलाई सम्पर्क गर्नुहोस् वा थप जानकारी लिनुहोस्।",
+        cta_get_price: "मूल्य बुझ्नुहोस्",
+
+        // Benefits
+        benefit_1_title: "कम लागत",
+        benefit_1_desc: "दीर्घकालीन समाधानको लागि किफायती एक पटकको लगानी। कुनै महँगो प्रतिस्थापन पार्ट्स आवश्यक पर्दैन।",
+        benefit_2_title: "कुनै रसायन छैन",
+        benefit_2_desc: "पानी सफा गर्न पूर्ण रूपमा प्राकृतिक प्रक्रिया प्रयोग गर्दछ। क्लोरीन वा रासायनिक स्वाद हुँदैन।",
+        benefit_3_title: "सजिलो मर्मतसम्भार",
+        benefit_3_desc: "सञ्चालन र सफा गर्न सजिलो। मात्र पानी हाल्नुहोस् र सफा पानी जम्मा गर्नुहोस्।",
+        benefit_4_title: "प्रमाणित नतिजाहरू",
+        benefit_4_desc: "परजीवी, ब्याक्टेरिया र धमिलोपनलाई प्रभावकारी रूपमा घटाउँछ, सुरक्षित पिउने पानी प्रदान गर्दछ।",
+
+        // Reviews
+        review_title: "ग्राहक समीक्षाहरू",
+        review_1_text: "बायो-स्यान्ड फिल्टरले हाम्रो जीवन परिवर्तन गर्‍यो। घरमा सफा पानी!",
+        review_2_text: "उत्कृष्ट कृषि औजारहरू। धेरै टिकाउ र आधुनिक ।",
+        review_3_text: "समय र श्रमको बचत प्रयोगकर्तालाई राम्रो पकड दिन सक्ने सुविधायुक्त डिजाइन कृषि हलो",
+        review_4_text: "उत्कृष्ट सेवा र छिटो डेलिभरी। फेरि किन्नेछु!",
+        local_guide: "स्थानीय गाइड",
+        reviews_count: " समीक्षाहरू",
+        posted_on: "Google मा पोस्ट गरिएको",
+
+        // Manual
+        user_manual_title: "प्रयोगकर्ता पुस्तिका",
+        download_manual_btn: "प्रयोगकर्ता पुस्तिका हेर्नुहोस्",
+        manual_desc: "तपाईंको बायो-स्यान्ड फिल्टरको प्रयोग र मर्मतसम्भार कसरी गर्ने भन्ने बारे विस्तृत जानकारी डाउनलोड गर्नुहोस्।",
+
+        tools_page_title: "किसानको लागि समाधान",
+        tools_page_subtitle: "सुरक्षित बाली, सन्तुष्ट किसान",
+        tools_main_title: "आधुनिक कृषि औजार",
+        tools_plow_title: "कृषि हलो",
+        cta_inquiry: "अर्डरहरूको बारेमा सोधपुछ गर्नुहोस्",
+        bench_page_title: "सिमेन्ट बेन्च",
+        bench_page_subtitle: "उच्च गुणस्तरको कङ्क्रिट प्रयोग गरी अधिकतम टिकाउपनको लागि तयार पारिएका छन्।",
+        bench_intro_title: "बलियो र टिकाउ",
+        bench_cta_title: "बगैंचाको लागि बलियो र टिकाउ",
+        bench_cta_desc: "बगैंचाको लागि बलियो र टिकाउपनको लागि तयार पारिएका छन्।",
+        cta_get_quote: "कोटेशन लिनुहोस्",
+        contact_page_title: "सम्पर्कमा रहनुहोस्",
+        contact_page_subtitle: "हामीलाई तपाईंको सुझाव सुन्न मन पर्छ।",
+        contact_about_title: "हाम्रो बारेमा",
+        contact_info_title: "सम्पर्क जानकारी",
+        contact_feedback_title: "हामीलाई प्रतिक्रिया दिनुहोस्"
+    }
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Theme Logic ---
+    const themeToggle = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme') || 'light';
+
+    if (currentTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            let theme = document.documentElement.getAttribute('data-theme');
+            if (theme === 'dark') {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    }
+
+    // --- Language Logic ---
+    const langBtn = document.getElementById('lang-toggle-btn');
+    const currentLang = localStorage.getItem('lang') || 'ne'; // Default to Nepali based on current content
+
+    function updateLanguage(lang) {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (translations[lang] && translations[lang][key]) {
+                el.textContent = translations[lang][key];
+            }
+        });
+
+        // Update button text to show the OTHER language (toggle action)
+        if (langBtn) {
+            if (lang === 'en') {
+                langBtn.textContent = 'NE';
+            } else {
+                langBtn.textContent = 'EN'; // EN text for button when current is NE
+            }
+        }
+
+        localStorage.setItem('lang', lang);
+        document.documentElement.lang = lang;
+    }
+
+    // Initialize Language
+    updateLanguage(currentLang);
+
+    if (langBtn) {
+        langBtn.addEventListener('click', () => {
+            const current = localStorage.getItem('lang') || 'ne';
+            const newLang = current === 'en' ? 'ne' : 'en';
+            updateLanguage(newLang);
+        });
+    }
+
+    // --- Mobile Menu Toggle ---
+    const mobileBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (mobileBtn) {
+        mobileBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navLinks.classList.toggle('active');
+            if (navLinks.classList.contains('active')) {
+                mobileBtn.textContent = '✕';
+            } else {
+                mobileBtn.textContent = '☰';
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && e.target !== mobileBtn) {
+                navLinks.classList.remove('active');
+                mobileBtn.textContent = '☰';
+            }
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileBtn.textContent = '☰';
+            });
+        });
+    }
+
+    // --- Smooth Scroll for Anchor Links ---
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                }
+            }
+        });
+    });
+});
