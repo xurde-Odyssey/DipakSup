@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Ads | Dipak Suppliers</title>
+    <meta name="description" content="View our latest product advertisements and brochures - Dipak Suppliers.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/ds.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .pdf-container {
+            width: 100%;
+            height: 100vh;
+            /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 80px;
+            /* Account for fixed navbar if applicable, or adjust as needed */
+            background-color: #f4f4f4;
+        }
+
+        .pdf-embed {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .fallback-link {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Dipak Suppliers Logo" class="logo-img">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="bio-sand-filter.html" data-i18n="nav_filters">Bio-Sand Filters</a></li>
+                <li><a href="agricultural-tools.html" data-i18n="nav_tools">Agricultural Tools</a></li>
+                <li><a href="cement-bench.html" data-i18n="nav_benches">Cement Benches</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+                <button id="lang-toggle-btn" class="lang-btn">NE</button>
+                <div class="mobile-menu-btn">☰</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PDF Viewer Section -->
+    <section class="pdf-section">
+        <div class="pdf-container">
+            <object data="images/Pdf_files/Products Ads.pdf" type="application/pdf" class="pdf-embed">
+                <div class="fallback-link">
+                    <p>It appears you don't have a PDF plugin for this browser.
+                        No biggie... you can <a href="images/Pdf_files/Products Ads.pdf" class="btn btn-primary">click
+                            here to
+                            download the PDF file.</a></p>
+                </div>
+            </object>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: About -->
+                <div class="footer-column footer-about">
+                    <div class="footer-logo">
+
+                        <span style="font-weight: 700; color: var(--primary-blue); font-size: 1.2rem;">Dipak
+                            Suppliers</span>
+                    </div>
+                    <p data-i18n="footer_about">Empowering our community with clean water and reliable tools. Dedicated
+                        to quality and sustainability in every product.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/deepaksuppliers11/?locale=eu_ES" class="social-btn facebook"
+                            title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/9779804094535" class="social-btn whatsapp" title="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.youtube.com/@DipakSuppliers" class="social-btn youtube" title="YouTube"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Column 2: Quick Links -->
+                <div class="footer-column footer-links">
+                    <h4 data-i18n="footer_links_title">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                        <li><a href="bio-sand-filter.html" data-i18n="nav_filters">Bio-Sand Filters</a></li>
+                        <li><a href="agricultural-tools.html" data-i18n="nav_tools">Agricultural Tools</a></li>
+                        <li><a href="cement-bench.html" data-i18n="nav_benches">Cement Benches</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact Info -->
+                <div class="footer-column footer-contact">
+                    <h4 data-i18n="footer_contact_title">Contact Us</h4>
+                    <div class="footer-contact-info">
+                        <div class="contact-item">
+                            <span>📍 Urlabai, Machindra Chowk</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>📞 <a href="tel:+9779804094535">+977-9804094535</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <span>✉️ <a href="mailto:suppliersdipak@gmail.com">suppliersdipak@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 4: Business Hours -->
+                <div class="footer-column">
+                    <h4 data-i18n="footer_hours_title">Business Hours</h4>
+                    <div class="footer-contact-info">
+                        <div class="contact-item">
+                            <span>Sun - Fri: 9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>Sat: Closed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2026 Dipak Suppliers. All rights reserved.</p>
+                </div>
+                <div class="designer-credit">
+                    <p>Designed by <a href="https://www.bhandaridipesh.com.np/" target="_blank"
+                            rel="noopener noreferrer">Xurde</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
