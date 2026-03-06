@@ -79,7 +79,32 @@ const translations = {
         contact_page_subtitle: "We love to hear your suggestions.",
         contact_about_title: "About Us",
         contact_info_title: "Contact Information",
-        contact_feedback_title: "Give us a feedback"
+        contact_feedback_title: "Give us feedback",
+        contact_visit_us: "Visit Us",
+        contact_call_us: "Call Us",
+        contact_email_us: "Email Us",
+        contact_follow_us: "Follow Us",
+        contact_name_label: "Your Name",
+        contact_email_label: "Email Address",
+        contact_subject_label: "Subject",
+        contact_message_label: "Enter your message",
+        contact_name_placeholder: "Ram Bahadur",
+        contact_email_placeholder: "rambahadur@gmail.com",
+        contact_subject_placeholder: "Inquiry about bio-sand filter",
+        contact_message_placeholder: "Enter your message here...",
+        contact_send_message: "Send Message",
+        contact_about_journey_title: "Our Journey:",
+        contact_about_journey_desc: "Since Magh 4, 2080 BS, services expanded through 'D & D Grill Engineering'.",
+        contact_about_expertise_title: "Expertise:",
+        contact_about_expertise_desc: "Production of cement products and modern agricultural tools.",
+        contact_about_products_title: "Main Products:",
+        contact_about_products_desc: "Modern agricultural tools, cement benches, and water purification filters.",
+        contact_about_quality_title: "Registration and Quality:",
+        contact_about_quality_desc: "Officially registered in Morang, Koshi Province, delivering quality service.",
+        footer_about: "Empowering our community with clean water and reliable tools. Dedicated to quality and sustainability in every product.",
+        footer_links_title: "Quick Links",
+        footer_contact_title: "Contact Us",
+        footer_hours_title: "Business Hours"
     },
     ne: {
         nav_home: "होम",
@@ -161,7 +186,32 @@ const translations = {
         contact_page_subtitle: "हामीलाई तपाईंको सुझाव सुन्न मन पर्छ।",
         contact_about_title: "हाम्रो बारेमा",
         contact_info_title: "सम्पर्क जानकारी",
-        contact_feedback_title: "हामीलाई प्रतिक्रिया दिनुहोस्"
+        contact_feedback_title: "हामीलाई प्रतिक्रिया दिनुहोस्",
+        contact_visit_us: "हामीलाई भेट्नुहोस्",
+        contact_call_us: "हामीलाई फोन गर्नुहोस्",
+        contact_email_us: "हामीलाई इमेल गर्नुहोस्",
+        contact_follow_us: "हामीलाई फलो गर्नुहोस्",
+        contact_name_label: "तपाईंको नाम",
+        contact_email_label: "इमेल ठेगाना",
+        contact_subject_label: "विषय",
+        contact_message_label: "तपाईंको सन्देश लेख्नुहोस्",
+        contact_name_placeholder: "राम बहादुर",
+        contact_email_placeholder: "rambahadur@gmail.com",
+        contact_subject_placeholder: "बायो-स्यान्ड फिल्टर सम्बन्धी जानकारी",
+        contact_message_placeholder: "यहाँ आफ्नो सन्देश लेख्नुहोस्...",
+        contact_send_message: "सन्देश पठाउनुहोस्",
+        contact_about_journey_title: "हाम्रो यात्रा:",
+        contact_about_journey_desc: "२०८० माघ ४ गतेदेखि 'डि एण्ड डि ग्रिल इन्जिनियरिङ' मार्फत सेवा विस्तार।",
+        contact_about_expertise_title: "विशेषज्ञता:",
+        contact_about_expertise_desc: "सिमेन्ट सामग्री र उन्नत कृषि औजारहरूको उत्पादन।",
+        contact_about_products_title: "मुख्य उत्पादनहरू:",
+        contact_about_products_desc: "आधुनिक कृषि औजार, सिमेन्ट बेन्च तथा पानी शुद्धीकरण फिल्टर।",
+        contact_about_quality_title: "दर्ता र गुणस्तर:",
+        contact_about_quality_desc: "कोशी प्रदेश, मोरङमा विधिवत दर्ता भई स्तरीय सेवा।",
+        footer_about: "हाम्रो समुदायलाई सफा पानी र भरपर्दो उपकरणमार्फत सशक्त बनाउँदै। हरेक उत्पादनमा गुणस्तर र दिगोपनप्रति समर्पित।",
+        footer_links_title: "द्रुत लिङ्कहरू",
+        footer_contact_title: "सम्पर्क गर्नुहोस्",
+        footer_hours_title: "व्यवसायिक समय"
     }
 };
 
@@ -196,6 +246,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const key = el.getAttribute('data-i18n');
             if (translations[lang] && translations[lang][key]) {
                 el.textContent = translations[lang][key];
+            }
+        });
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            if (translations[lang] && translations[lang][key]) {
+                el.setAttribute('placeholder', translations[lang][key]);
             }
         });
 
