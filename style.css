@@ -468,19 +468,6 @@ footer {
     color: var(--text-light);
 }
 
-.designer-credit {
-    font-size: 0.9rem;
-    color: var(--text-light);
-}
-
-.designer-credit a {
-    color: var(--primary-blue);
-    font-weight: 600;
-}
-
-.designer-credit a:hover {
-    text-decoration: underline;
-}
 
 @media (max-width: 768px) {
     .footer-bottom {
