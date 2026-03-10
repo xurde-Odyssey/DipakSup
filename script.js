@@ -16,7 +16,7 @@ const translations = {
         about_title: "Who We Are?",
         about_text: "At Dipak Suppliers, we are committed to community, quality, and sustainability. As a local business, we understand the specific needs of our farmers and families. We provide durable tools and effective water purification solutions to improve health and productivity in our region.",
         specs_title: "Product Specifications",
-        specs_intro: "Browse our main products quickly. Detailed PDF specifications will be added later.",
+        specs_intro: "Browse our main products quickly.",
         spec_filter_title: "Bio-Sand Filter",
         spec_bench_title: "Cement Bench",
         spec_plow_title: "Agricultural Plow",
