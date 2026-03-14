@@ -13,16 +13,27 @@ const translations = {
         stat_quality: "Quality Guarantee",
         hero_cta_products: "View Our Products",
         hero_cta_contact: "Contact Us",
+        mobile_cta_call: "Call Now",
+        mobile_cta_whatsapp: "WhatsApp",
         about_title: "Who We Are?",
         about_text: "At Dipak Suppliers, we are committed to community, quality, and sustainability. As a local business, we understand the specific needs of our farmers and families. We provide durable tools and effective water purification solutions to improve health and productivity in our region.",
+        products_snapshot_title: "Our Solutions",
+        product_filter_title: "Bio-Sand Filter",
+        product_filter_desc: "Natural household water filtration designed to provide safer and cleaner drinking water.",
+        product_tools_title: "Agricultural Tools",
+        product_tools_desc: "Durable, practical tools designed for local farming work and daily field use.",
+        product_bench_title: "Cement Bench",
+        product_bench_desc: "Strong concrete benches prepared for gardens, homes, parks, and public spaces.",
+        product_view_details: "View Details",
         specs_title: "Product Specifications",
         specs_intro: "Browse our main products quickly.",
         spec_filter_title: "Bio-Sand Filter",
         spec_bench_title: "Cement Bench",
-        spec_plow_title: "Agricultural Plow",
-        spec_wheelbarrow_title: "Strong Urbana Wheelbarrow",
+        spec_plow_title: "Bed Maker",
+        spec_wheelbarrow_title: "Urbana Wheelbarrow",
         spec_dhwani_title: "Dhwani Yantra",
         spec_view_details: "View Details",
+        spec_download: "Download",
         spec_coming_soon: "Coming Soon",
         filter_page_title: "Pure Water",
         filter_page_subtitle: "Bio-Sand Filter: Natural and Effective.",
@@ -114,7 +125,8 @@ const translations = {
         footer_about: "Empowering our community with clean water and reliable tools. Dedicated to quality and sustainability in every product.",
         footer_links_title: "Quick Links",
         footer_contact_title: "Contact Us",
-        footer_hours_title: "Business Hours"
+        footer_hours_title: "Business Hours",
+        footer_update_note: "For the latest product details and pricing, contact us directly."
     },
     ne: {
         nav_home: "होम",
@@ -130,8 +142,18 @@ const translations = {
         stat_quality: "गुणस्तर ग्यारेन्टी",
         hero_cta_products: "हाम्रो उत्पादनहरू हेर्नुहोस्",
         hero_cta_contact: "सम्पर्क गर्नुहोस्",
+        mobile_cta_call: "अहिले फोन गर्नुहोस्",
+        mobile_cta_whatsapp: "व्हाट्सएप",
         about_title: "हामी को हौं ?",
         about_text: "दीपक सप्लायर्समा, हामी समुदाय, गुणस्तर र दिगोपनप्रति प्रतिबद्ध छौं। स्थानीय व्यवसायको रूपमा, हामी हाम्रा किसान र परिवारहरूको विशिष्ट आवश्यकताहरू बुझ्छौं। हामी हाम्रो क्षेत्रमा स्वास्थ्य र उत्पादकता सुधार गर्न टिकाउ उपकरणहरू र प्रभावकारी पानी शुद्धीकरण समाधानहरू प्रदान गर्दछौं।",
+        products_snapshot_title: "हाम्रो समाधान",
+        product_filter_title: "बायो-स्यान्ड फिल्टर",
+        product_filter_desc: "घरायसी प्रयोगका लागि सुरक्षित र सफा पिउने पानी उपलब्ध गराउने प्राकृतिक फिल्ट्रेशन प्रणाली।",
+        product_tools_title: "कृषि उपकरणहरू",
+        product_tools_desc: "स्थानीय खेतीपाती र दैनिक खेत कार्यका लागि बनाइएका टिकाउ र व्यावहारिक औजारहरू।",
+        product_bench_title: "सिमेन्ट बेन्च",
+        product_bench_desc: "बगैंचा, घर, पार्क र सार्वजनिक स्थानका लागि तयार पारिएका बलिया कङ्क्रिट बेन्चहरू।",
+        product_view_details: "विस्तृत हेर्नुहोस्",
         specs_title: "उत्पादन स्पेसिफिकेशन",
         specs_intro: "हाम्रा प्रमुख उत्पादनहरू छिटो हेर्नुहोस्। विस्तृत PDF विवरण पछि थपिनेछ।",
         spec_filter_title: "बायो-स्यान्ड फिल्टर",
@@ -140,6 +162,7 @@ const translations = {
         spec_wheelbarrow_title: "बलियो अर्बना ह्विलबारो",
         spec_dhwani_title: "ध्वनी यान्त्र",
         spec_view_details: "विस्तृत विवरण",
+        spec_download: "डाउनलोड",
         spec_coming_soon: "छिट्टै आउँदैछ",
         filter_page_title: "शुद्ध पानी",
         filter_page_subtitle: "बायो-स्यान्ड फिल्टर: प्राकृतिक र प्रभावकारी।",
@@ -231,7 +254,8 @@ const translations = {
         footer_about: "हाम्रो समुदायलाई सफा पानी र भरपर्दो उपकरणमार्फत सशक्त बनाउँदै। हरेक उत्पादनमा गुणस्तर र दिगोपनप्रति समर्पित।",
         footer_links_title: "द्रुत लिङ्कहरू",
         footer_contact_title: "सम्पर्क गर्नुहोस्",
-        footer_hours_title: "व्यवसायिक समय"
+        footer_hours_title: "व्यवसायिक समय",
+        footer_update_note: "नवीनतम उत्पादन विवरण र मूल्यका लागि सिधै हामीलाई सम्पर्क गर्नुहोस्।"
     }
 };
 
@@ -259,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Language Logic ---
     const langBtn = document.getElementById('lang-toggle-btn');
-    const currentLang = localStorage.getItem('lang') || 'ne'; // Default to Nepali based on current content
+    const currentLang = localStorage.getItem('lang') || 'en';
 
     function updateLanguage(lang) {
         document.querySelectorAll('[data-i18n]').forEach(el => {
