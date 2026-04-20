@@ -377,9 +377,29 @@
 
 
     <!-- Google Review -->
-    <section class="section-padding bg-blue" style="background-color: var(--light-blue); color: var(--text-dark);">
-        <div class="container text-center">
-            <h2 class="section-title" style="color: var(--navy-blue);" data-i18n="review_title">ग्राहक समीक्षाहरू</h2>
+    <section class="section-padding reviews-section">
+        <div class="container">
+            <div class="reviews-heading">
+                <span class="contact-strip-badge" data-i18n="review_kicker">Google Reviews</span>
+                <h2 class="section-title" data-i18n="review_title">Trusted by Local Customers</h2>
+                <p data-i18n="review_subtitle">Feedback from customers who use our filters, tools, and cement products.</p>
+            </div>
+
+            <div class="rating-summary-card">
+                <div class="rating-summary-score">
+                    <strong>4.9</strong>
+                    <span>/5</span>
+                </div>
+                <div class="rating-summary-copy">
+                    <div class="star-rating" aria-label="5 star rating">★★★★★</div>
+                    <p data-i18n="review_summary_text">Based on customer feedback from Google and direct inquiries.</p>
+                </div>
+                <div class="rating-summary-source">
+                    <img src="images/google-logo.svg" alt="Google" loading="lazy" decoding="async">
+                    <span data-i18n="review_summary_source">Google feedback</span>
+                </div>
+            </div>
+
             <div class="reviews-grid">
                 <!-- Review 1 -->
                 <div class="google-review-card">
@@ -391,9 +411,11 @@
                                     data-i18n="reviews_count">समीक्षाहरू</span></span>
                         </div>
                     </div>
-                    <div class="star-rating">
-                        ★★★★★ <span style="font-size: 0.8rem; color: #70757a; margin-left:8px;">a month ago</span>
+                    <div class="review-meta-row">
+                        <div class="star-rating">★★★★★</div>
+                        <span data-i18n="review_time_1">a month ago</span>
                     </div>
+                    <span class="review-product-tag" data-i18n="review_tag_filter">Bio-Sand Filter</span>
                     <p class="review-text" data-i18n="review_1_text">
                         बायो-स्यान्ड फिल्टरले हाम्रो जीवन परिवर्तन गर्‍यो। घरमा सफा पानी!
                     </p>
@@ -413,9 +435,11 @@
                                     data-i18n="reviews_count">समीक्षाहरू</span></span>
                         </div>
                     </div>
-                    <div class="star-rating">
-                        ★★★★★ <span style="font-size: 0.8rem; color: #70757a; margin-left:8px;">2 months ago</span>
+                    <div class="review-meta-row">
+                        <div class="star-rating">★★★★★</div>
+                        <span data-i18n="review_time_2">2 months ago</span>
                     </div>
+                    <span class="review-product-tag" data-i18n="review_tag_tools">Agricultural Tools</span>
                     <p class="review-text" data-i18n="review_2_text">
                         उत्कृष्ट कृषि औजारहरू। धेरै टिकाउ र आधुनिक ।
                     </p>
@@ -435,9 +459,11 @@
                                     data-i18n="reviews_count">समीक्षाहरू</span></span>
                         </div>
                     </div>
-                    <div class="star-rating">
-                        ★★★★★ <span style="font-size: 0.8rem; color: #70757a; margin-left:8px;">3 weeks ago</span>
+                    <div class="review-meta-row">
+                        <div class="star-rating">★★★★★</div>
+                        <span data-i18n="review_time_3">3 weeks ago</span>
                     </div>
+                    <span class="review-product-tag" data-i18n="review_tag_bedmaker">Bed Maker</span>
                     <p class="review-text" data-i18n="review_3_text">
                         समय र श्रमको बचत गर्ने, प्रयोगकर्तालाई राम्रो पकड दिने सुविधायुक्त डिजाइन भएको बेड मेकर।
                     </p>
@@ -457,9 +483,11 @@
                                     data-i18n="reviews_count">समीक्षाहरू</span></span>
                         </div>
                     </div>
-                    <div class="star-rating">
-                        ★★★★★ <span style="font-size: 0.8rem; color: #70757a; margin-left:8px;">1 week ago</span>
+                    <div class="review-meta-row">
+                        <div class="star-rating">★★★★★</div>
+                        <span data-i18n="review_time_4">1 week ago</span>
                     </div>
+                    <span class="review-product-tag" data-i18n="review_tag_service">Service</span>
                     <p class="review-text" data-i18n="review_4_text">
                         उत्कृष्ट सेवा र छिटो डेलिभरी। फेरि किन्नेछु!
                     </p>
@@ -467,6 +495,23 @@
                         <img src="images/google-logo.svg" alt="Google" style="width: 20px; height: 20px;" loading="lazy" decoding="async">
                         <span data-i18n="posted_on">Posted on Google</span>
                     </div>
+                </div>
+            </div>
+
+            <div class="reviews-cta">
+                <div>
+                    <strong data-i18n="review_cta_title">Need help choosing the right product?</strong>
+                    <p data-i18n="review_cta_desc">Call or WhatsApp us for product details, price, and availability.</p>
+                </div>
+                <div class="reviews-cta-actions">
+                    <a href="tel:+9779804094535" class="btn btn-primary">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                        <span data-i18n="home_cta_call">Call Us</span>
+                    </a>
+                    <a href="https://wa.me/9779804094535" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        <span data-i18n="home_cta_whatsapp">Chat on WhatsApp</span>
+                    </a>
                 </div>
             </div>
         </div>
