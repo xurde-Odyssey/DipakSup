@@ -133,6 +133,8 @@ const translations = {
         tools_card_dhwani_desc: "Produces loud sound to scare away monkeys, elephants, and other wild animals.",
         tools_card_urea_title: "Urea Applicator",
         tools_card_urea_desc: "A field tool designed for urea application that helps improve irrigation efficiency and crop output.",
+        tools_card_chulo_title: "Chulo",
+        tools_card_chulo_desc: "This steel stove is a strong and durable cooking appliance made of high-quality heavy metal. Weighing around 11 kg, this stove can be used for a long time due to its sturdy structure and is suitable for daily use.",
         tools_benefits_title: "Benefits:",
         tools_benefit_1: "Saves time and labor for farmers.",
         tools_benefit_2: "Allows one person to complete more work efficiently.",
@@ -346,6 +348,8 @@ const translations = {
         tools_card_dhwani_desc: "ठूलो आवाज उत्पादन गरी जनावरहरूलाई डराएर टाढा भगाउँछ। बाँदर, हात्ती र अन्य जंगली जनावरहरूबाट बच्नको लागि उत्कृष्ट समाधान।",
         tools_card_urea_title: "युरिया लगाउने",
         tools_card_urea_desc: "युरिया लगाउने औजार हो जसमा गोडमेल गरेर सिँचाइ गर्दा डब्बल उत्पादन हुन्छ।",
+        tools_card_chulo_title: "चुलो",
+        tools_card_chulo_desc: "यो स्टिलको चुलो उच्च गुणस्तरको भारी धातुबाट बनेको बलियो र टिकाउ खाना पकाउने उपकरण हो। करिब ११ केजी तौल भएको यो चुलोको बनावट मजबुत भएकाले लामो समयसम्म दैनिक प्रयोगका लागि उपयुक्त हुन्छ।",
         tools_benefits_title: "फाइदाहरू :",
         tools_benefit_1: "किसानहरूका लागि समय र श्रमको बचत गर्दछ।",
         tools_benefit_2: "एक जना व्यक्तिले पनि धेरै काम गर्न सक्ने क्षमता हुन्छ।",
@@ -428,6 +432,20 @@ const translations = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.querySelector('.navbar');
+
+    function updateNavbarScrollState() {
+        if (!navbar) return;
+        if (window.scrollY > 12) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    }
+
+    updateNavbarScrollState();
+    window.addEventListener('scroll', updateNavbarScrollState, { passive: true });
+
     // --- Theme Logic ---
     const themeToggle = document.getElementById('theme-toggle');
     const currentTheme = localStorage.getItem('theme') || 'light';
