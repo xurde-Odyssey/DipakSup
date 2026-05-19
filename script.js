@@ -5,7 +5,7 @@ const translations = {
         nav_tools: "Agricultural Tools",
         nav_benches: "Cement Benches",
         nav_contact: "Contact Us",
-        nav_letter: "Create Letter",
+        nav_letter: "Ad creator",
         hero_title: "Dipak Suppliers",
         hero_desc: "We provide high-quality bio-sand filters and agricultural tools for your community. Certified solutions for health and productivity.",
         stat_happy_clients: "Happy Clients",
