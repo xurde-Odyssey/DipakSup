@@ -7,6 +7,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 contact: resolve(__dirname, 'contact.html'),
+                blog: resolve(__dirname, 'blog.html'),
                 bioSandFilter: resolve(__dirname, 'bio-sand-filter.html'),
                 agriculturalTools: resolve(__dirname, 'agricultural-tools.html'),
                 cementBench: resolve(__dirname, 'cement-bench.html'),

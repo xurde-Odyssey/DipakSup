@@ -5,6 +5,7 @@ const translations = {
         nav_tools: "Agricultural Tools",
         nav_benches: "Cement Benches",
         nav_contact: "Contact Us",
+        nav_blog: "Blog",
         nav_letter: "Ad creator",
         hero_title: "Dipak Suppliers",
         hero_desc: "We provide high-quality bio-sand filters and agricultural tools for your community. Certified solutions for health and productivity.",
@@ -64,6 +65,7 @@ const translations = {
         filter_origin_desc: "The household biosand filter was developed from slow sand filtration by Dr. David Manz. CAWST (Centre for Affordable Water and Sanitation Technology) is the organization most closely associated with sharing this technology globally through training, technical resources, and implementation support.",
         filter_cawst_desc: "CAWST is a Canadian charity and licensed engineering firm that helps communities improve safe drinking water, sanitation, and hygiene through practical education.",
         filter_cawst_website_label: "Website:",
+        filter_gallery_title: "Gallery",
         benefits_title: "Key Benefits",
         mechanism_title: "How it Removes Bacteria?",
         mec_1_title: "Trapping",
@@ -213,6 +215,14 @@ const translations = {
         contact_about_products_desc: "Modern agricultural tools, cement benches, and water purification filters.",
         contact_about_quality_title: "Registration and Quality:",
         contact_about_quality_desc: "Officially registered in Morang, Koshi Province, delivering quality service.",
+        blog_page_title: "Blog",
+        blog_page_subtitle: "Practical updates, product tips, and useful guidance from Dipak Suppliers.",
+        blog_card_1_title: "Bio-Sand Filter Care",
+        blog_card_1_desc: "Simple maintenance tips to keep your filter working safely and effectively for daily family use.",
+        blog_card_2_title: "Farming Tool Guides",
+        blog_card_2_desc: "Practical usage notes for bed makers, wheelbarrows, and other tools supplied for local farming work.",
+        blog_card_3_title: "Latest Updates",
+        blog_card_3_desc: "New articles, product announcements, and customer-focused updates will be published here soon.",
         footer_about: "Empowering our community with clean water and reliable tools. Dedicated to quality and sustainability in every product.",
         footer_links_title: "Quick Links",
         footer_contact_title: "Contact Us",
@@ -225,6 +235,7 @@ const translations = {
         nav_tools: "कृषि उपकरणहरू",
         nav_benches: "सिमेन्ट बेन्च",
         nav_contact: "सम्पर्क",
+        nav_blog: "ब्लग",
         nav_letter: "पत्र बनाउनुहोस्",
         hero_title: "दीपक सप्लायर्स",
         hero_desc: "हामी तपाईंको समुदायलाई उच्च गुणस्तरको बायो-स्यान्ड फिल्टर र कृषि उपकरणहरू प्रदान गर्दछौं। स्वास्थ्य र उत्पादकताको लागि प्रमाणित समाधान।",
@@ -284,6 +295,7 @@ const translations = {
         filter_origin_desc: "घरायसी बायो-स्यान्ड फिल्टर ढिलो बालुवा फिल्ट्रेशन प्रविधिबाट डा. डेभिड म्यान्जले विकास गर्नुभएको हो। CAWST (Centre for Affordable Water and Sanitation Technology) यस प्रविधिलाई तालिम, प्राविधिक स्रोतसामग्री, र कार्यान्वयन सहयोगमार्फत विश्वभर फैलाउन नजिकबाट जोडिएको संस्था हो।",
         filter_cawst_desc: "CAWST क्यानाडाको एक परोपकारी संस्था तथा इजाजतप्राप्त इन्जिनियरिङ संस्था हो, जसले व्यवहारिक शिक्षामार्फत समुदायलाई सुरक्षित पिउने पानी, सरसफाइ, र स्वच्छतामा सहयोग गर्दछ।",
         filter_cawst_website_label: "वेबसाइट:",
+        filter_gallery_title: "ग्यालरी",
         benefits_title: "मुख्य फाइदाहरू",
         mechanism_title: "बायोस्याण्ड फिल्टरले कसरी जीवाणु हटाउँदछ ?",
         mec_1_title: "१. अड्कने प्रकृया",
@@ -433,6 +445,14 @@ const translations = {
         contact_about_products_desc: "आधुनिक कृषि औजार, सिमेन्ट बेन्च तथा पानी शुद्धीकरण फिल्टर।",
         contact_about_quality_title: "दर्ता र गुणस्तर:",
         contact_about_quality_desc: "कोशी प्रदेश, मोरङमा विधिवत दर्ता भई स्तरीय सेवा।",
+        blog_page_title: "ब्लग",
+        blog_page_subtitle: "दिपक सप्लायर्सबाट उपयोगी जानकारी, उत्पादन सुझाव, र व्यवहारिक अपडेटहरू।",
+        blog_card_1_title: "बायो-स्यान्ड फिल्टर हेरचाह",
+        blog_card_1_desc: "घरायसी प्रयोगका लागि फिल्टरलाई सुरक्षित र प्रभावकारी अवस्थामा राख्न सरल मर्मत सुझावहरू।",
+        blog_card_2_title: "कृषि उपकरण मार्गदर्शन",
+        blog_card_2_desc: "बेड मेकर, ह्विलब्यारो, र अन्य कृषि उपकरणहरूको प्रयोगसम्बन्धी व्यवहारिक जानकारी।",
+        blog_card_3_title: "नवीनतम अपडेटहरू",
+        blog_card_3_desc: "नयाँ लेख, उत्पादन घोषणा, र ग्राहक उपयोगी अपडेटहरू छिट्टै यहाँ प्रकाशित गरिनेछन्।",
         footer_about: "हाम्रो समुदायलाई सफा पानी र भरपर्दो उपकरणमार्फत सशक्त बनाउँदै। हरेक उत्पादनमा गुणस्तर र दिगोपनप्रति समर्पित।",
         footer_links_title: "द्रुत लिङ्कहरू",
         footer_contact_title: "सम्पर्क गर्नुहोस्",
@@ -513,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (langBtn) {
         langBtn.addEventListener('click', () => {
-            const current = localStorage.getItem('lang') || 'ne';
+            const current = localStorage.getItem('lang') || 'en';
             const newLang = current === 'en' ? 'ne' : 'en';
             updateLanguage(newLang);
         });
