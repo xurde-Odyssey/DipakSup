@@ -1867,6 +1867,45 @@ body.has-mobile-cta {
     margin-top: var(--spacing-md);
 }
 
+.bio-tech-card {
+    margin-top: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+    background: linear-gradient(145deg, var(--card-bg), var(--bg-light));
+    box-shadow: 0 10px 25px var(--shadow-color);
+}
+
+.bio-tech-card h3 {
+    color: var(--navy-blue);
+    margin-bottom: 0.85rem;
+}
+
+.bio-tech-card p {
+    margin-bottom: 0.85rem;
+    color: var(--text-light);
+}
+
+.bio-tech-card p:last-child {
+    margin-bottom: 0;
+}
+
+.bio-tech-link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.bio-tech-link-row a {
+    color: var(--primary-blue);
+    font-weight: 600;
+}
+
+.bio-tech-link-row a:hover {
+    color: var(--accent-teal);
+}
+
 /* Highlight Cards Grid */
 .bio-highlights-grid {
     display: grid;

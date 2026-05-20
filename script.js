@@ -60,6 +60,10 @@ const translations = {
         filter_what_title: "What is a Bio-Sand Filter?",
         filter_what_desc1: "The bio-sand filter is a variation of the traditional slow sand filter, which has been used for community water treatment for over 200 years. It is small and designed for household use.",
         filter_what_desc2: "This filter works through a natural process. Water is poured into the top and passes through layers of sand and gravel. A biological layer called 'schmutzdecke' develops on top of the sand which destroys parasites, while the sand removes particles and turbidity.",
+        filter_origin_title: "Organization Behind This Technology",
+        filter_origin_desc: "The household biosand filter was developed from slow sand filtration by Dr. David Manz. CAWST (Centre for Affordable Water and Sanitation Technology) is the organization most closely associated with sharing this technology globally through training, technical resources, and implementation support.",
+        filter_cawst_desc: "CAWST is a Canadian charity and licensed engineering firm that helps communities improve safe drinking water, sanitation, and hygiene through practical education.",
+        filter_cawst_website_label: "Website:",
         benefits_title: "Key Benefits",
         mechanism_title: "How it Removes Bacteria?",
         mec_1_title: "Trapping",
@@ -116,8 +120,9 @@ const translations = {
 
         // Manual
         user_manual_title: "User Manual",
-        download_manual_btn: "View User Manual",
+        download_manual_btn: "View User Manual (Nepali)",
         manual_desc: "Download our detailed guide on how to use and maintain your Bio-Sand Filter.",
+        download_spec_btn: "View Product Specification",
 
         tools_page_title: "Solutions for Farmers",
         tools_page_subtitle: "Safe Crop, Satisfied Farmer",
@@ -275,6 +280,10 @@ const translations = {
         filter_what_title: "बायो-स्यान्ड फिल्टर के हो?",
         filter_what_desc1: "बायो-स्यान्ड फिल्टर परम्परागत ढिलो बालुवा फिल्टरको एक रूप हो, जुन २०० वर्षभन्दा बढी समयदेखि सामुदायिक पानी उपचारका लागि प्रयोग हुँदै आएको छ। यो सानो छ र घरघरायसी प्रयोगका लागि उपयुक्त हुने गरी बनाइएको छ।",
         filter_what_desc2: "यो फिल्टर प्राकृतिक प्रक्रिया मार्फत काम गर्दछ। पानी माथिबाट हालिन्छ र बालुवा र गिट्टीको तहहरू पार गर्दछ। बालुवाको माथि 'स्मुजडेक' (schmutzdecke) भनिने जैविक तह विकास हुन्छ जसले परजीवीहरूलाई नष्ट गर्दछ, जबकि बालुवाले कणहरू र धमिलोपन हटाउँछ।",
+        filter_origin_title: "यस प्रविधिपछाडिको संस्था",
+        filter_origin_desc: "घरायसी बायो-स्यान्ड फिल्टर ढिलो बालुवा फिल्ट्रेशन प्रविधिबाट डा. डेभिड म्यान्जले विकास गर्नुभएको हो। CAWST (Centre for Affordable Water and Sanitation Technology) यस प्रविधिलाई तालिम, प्राविधिक स्रोतसामग्री, र कार्यान्वयन सहयोगमार्फत विश्वभर फैलाउन नजिकबाट जोडिएको संस्था हो।",
+        filter_cawst_desc: "CAWST क्यानाडाको एक परोपकारी संस्था तथा इजाजतप्राप्त इन्जिनियरिङ संस्था हो, जसले व्यवहारिक शिक्षामार्फत समुदायलाई सुरक्षित पिउने पानी, सरसफाइ, र स्वच्छतामा सहयोग गर्दछ।",
+        filter_cawst_website_label: "वेबसाइट:",
         benefits_title: "मुख्य फाइदाहरू",
         mechanism_title: "बायोस्याण्ड फिल्टरले कसरी जीवाणु हटाउँदछ ?",
         mec_1_title: "१. अड्कने प्रकृया",
@@ -331,8 +340,9 @@ const translations = {
 
         // Manual
         user_manual_title: "प्रयोगकर्ता पुस्तिका",
-        download_manual_btn: "प्रयोगकर्ता पुस्तिका हेर्नुहोस्",
+        download_manual_btn: "नेपाली प्रयोगकर्ता पुस्तिका हेर्नुहोस्",
         manual_desc: "तपाईंको बायो-स्यान्ड फिल्टरको प्रयोग र मर्मतसम्भार कसरी गर्ने भन्ने बारे विस्तृत जानकारी डाउनलोड गर्नुहोस्।",
+        download_spec_btn: "उत्पादन स्पेसिफिकेशन हेर्नुहोस्",
 
         tools_page_title: "किसानको लागि समाधान",
         tools_page_subtitle: "सुरक्षित बाली, सन्तुष्ट किसान",
