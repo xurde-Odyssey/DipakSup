@@ -3396,6 +3396,11 @@ body.has-mobile-cta {
     background: rgba(255, 255, 255, 0.82);
 }
 
+.home-hero-actions .btn-outline:hover {
+    background: var(--white);
+    color: var(--primary-blue);
+}
+
 .home-hero-actions .btn {
     border-radius: 10px;
 }
