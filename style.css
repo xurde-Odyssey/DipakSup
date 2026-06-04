@@ -1227,21 +1227,59 @@ body.has-mobile-cta {
     font-weight: 800;
 }
 
+.spec-action-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.spec-view-link,
 .spec-download-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.75rem;
+    justify-content: center;
+    gap: 0.4rem;
+    min-height: 32px;
+    padding: 0.4rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid rgba(37, 105, 135, 0.28);
+    background-color: var(--white);
     color: #256987;
-    font-weight: 800;
+    font-size: 0.86rem;
+    font-weight: 700;
+    line-height: 1;
     white-space: nowrap;
+    box-shadow: 0 3px 10px rgba(37, 105, 135, 0.08);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
 }
 
-.spec-download-link:hover {
+.spec-view-link {
+    border-color: rgba(0, 86, 179, 0.32);
     color: var(--primary-blue);
 }
 
+.spec-view-link:hover,
+.spec-download-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(37, 105, 135, 0.14);
+}
+
+.spec-view-link:hover {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.spec-download-link:hover {
+    background-color: #256987;
+    border-color: #256987;
+    color: var(--white);
+}
+
+.spec-view-link i,
 .spec-download-link i {
-    width: 22px;
+    width: 16px;
     text-align: center;
 }
 
