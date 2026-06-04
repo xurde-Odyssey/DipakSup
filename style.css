@@ -2131,6 +2131,10 @@ body.has-mobile-cta {
     background-color: #FF0000;
 }
 
+.social-btn.tiktok {
+    background-color: #000000;
+}
+
 /* Bio-Sand Filter Info Section Styles */
 .bio-filter-info-section {
     background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-color) 50%, var(--bg-light) 100%);
