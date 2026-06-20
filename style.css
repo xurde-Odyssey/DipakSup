@@ -3984,7 +3984,6 @@ body.has-mobile-cta {
     text-align: center;
 }
 
-.blog-eyebrow,
 .blog-section-kicker,
 .blog-contact-copy > span {
     display: inline-flex;
@@ -3994,14 +3993,6 @@ body.has-mobile-cta {
     font-weight: 800;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-}
-
-.blog-eyebrow {
-    padding: 0.45rem 0.85rem;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
 }
 
 .blog-hero h1 {
