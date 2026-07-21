@@ -24,7 +24,7 @@ const translations = {
         hot_label_bench: "Cement Bench",
         hot_label_filter: "Bio-Sand Filter",
         home_contact_whatsapp_value: "Chat instantly",
-        home_contact_hours_value: "Sun - Fri, 9:00 AM - 6:00 PM",
+        home_contact_hours_value: "Sun - Fri, 8:00 AM - 5:00 PM",
         mobile_cta_call: "Call Now",
         mobile_cta_whatsapp: "WhatsApp",
         home_contact_strip_title: "Talk to us directly",
@@ -32,6 +32,7 @@ const translations = {
         home_contact_whatsapp_label: "WhatsApp",
         home_contact_location_label: "Location",
         home_contact_hours_label: "Hours",
+        home_contact_panel_title: "Need details or availability?",
         home_cta_title: "Need product details or pricing?",
         home_cta_desc: "Call or WhatsApp us directly for the latest product details, pricing, and availability.",
         home_cta_call: "Call Us",
@@ -302,8 +303,7 @@ const translations = {
         footer_about: "Empowering our community with clean water and reliable tools. Dedicated to quality and sustainability in every product.",
         footer_links_title: "Quick Links",
         footer_contact_title: "Contact Us",
-        footer_hours_title: "Business Hours",
-        footer_update_note: "For the latest product details and pricing, contact us directly."
+        footer_hours_title: "Business Hours"
     },
     ne: {
         nav_home: "होम",
@@ -330,7 +330,7 @@ const translations = {
         hot_label_bench: "सिमेन्ट बेन्च",
         hot_label_filter: "बायो-स्यान्ड फिल्टर",
         home_contact_whatsapp_value: "तुरुन्तै कुरा गर्नुहोस्",
-        home_contact_hours_value: "आइत - शुक्र, बिहान ९:०० - साँझ ६:००",
+        home_contact_hours_value: "आइत - शुक्र, बिहान ८:०० - साँझ ५:००",
         mobile_cta_call: "अहिले फोन गर्नुहोस्",
         mobile_cta_whatsapp: "व्हाट्सएप",
         home_contact_strip_title: "सिधै हामीसँग कुरा गर्नुहोस्",
@@ -338,6 +338,7 @@ const translations = {
         home_contact_whatsapp_label: "व्हाट्सएप",
         home_contact_location_label: "ठेगाना",
         home_contact_hours_label: "समय",
+        home_contact_panel_title: "विवरण वा उपलब्धता चाहिएको छ?",
         home_cta_title: "उत्पादन विवरण वा मूल्य चाहिन्छ?",
         home_cta_desc: "नवीनतम उत्पादन विवरण, मूल्य र उपलब्धताका लागि सिधै फोन वा व्हाट्सएप गर्नुहोस्।",
         home_cta_call: "फोन गर्नुहोस्",
@@ -608,8 +609,7 @@ const translations = {
         footer_about: "हाम्रो समुदायलाई सफा पानी र भरपर्दो उपकरणमार्फत सशक्त बनाउँदै। हरेक उत्पादनमा गुणस्तर र दिगोपनप्रति समर्पित।",
         footer_links_title: "द्रुत लिङ्कहरू",
         footer_contact_title: "सम्पर्क गर्नुहोस्",
-        footer_hours_title: "व्यवसायिक समय",
-        footer_update_note: "नवीनतम उत्पादन विवरण र मूल्यका लागि सिधै हामीलाई सम्पर्क गर्नुहोस्।"
+        footer_hours_title: "व्यवसायिक समय"
     }
 };
 
@@ -627,27 +627,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateNavbarScrollState();
     window.addEventListener('scroll', updateNavbarScrollState, { passive: true });
-
-    // --- Theme Logic ---
-    const themeToggle = document.getElementById('theme-toggle');
-    const currentTheme = localStorage.getItem('theme') || 'light';
-
-    if (currentTheme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
-
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            let theme = document.documentElement.getAttribute('data-theme');
-            if (theme === 'dark') {
-                document.documentElement.removeAttribute('data-theme');
-                localStorage.setItem('theme', 'light');
-            } else {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                localStorage.setItem('theme', 'dark');
-            }
-        });
-    }
 
     // --- Language Logic ---
     const langBtn = document.getElementById('lang-toggle-btn');
