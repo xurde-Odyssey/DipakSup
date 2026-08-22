@@ -12,6 +12,7 @@ export default defineConfig({
                 agriculturalTools: resolve(__dirname, 'agricultural-tools.html'),
                 cementBench: resolve(__dirname, 'cement-bench.html'),
                 productsAds: resolve(__dirname, 'products-ads.html'),
+                notFound: resolve(__dirname, '404.html'),
             },
         },
     },

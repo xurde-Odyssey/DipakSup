@@ -14,7 +14,14 @@
     <meta property="og:description"
         content="Dipak Suppliers: Bio-sand filters, agricultural tools, cement benches, and trusted local service in Nepal.">
     <meta property="og:url" content="https://dipaksuppliers.com.np/">
+    <meta property="og:site_name" content="Dipak Suppliers">
     <meta property="og:image" content="https://dipaksuppliers.com.np/images/logo.png">
+    <meta property="og:image:alt" content="Dipak Suppliers logo">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dipak Suppliers | Clean Water & Strong Harvest">
+    <meta name="twitter:description"
+        content="Bio-sand filters, agricultural tools, cement benches, and trusted local service in Nepal.">
+    <meta name="twitter:image" content="https://dipaksuppliers.com.np/images/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/ds.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,12 +29,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "LocalBusiness",
+                    "@id": "https://dipaksuppliers.com.np/#business",
+                    "name": "Dipak Suppliers",
+                    "url": "https://dipaksuppliers.com.np/",
+                    "logo": "https://dipaksuppliers.com.np/images/logo.png",
+                    "image": "https://dipaksuppliers.com.np/images/logo.png",
+                    "description": "Local supplier of bio-sand water filters, agricultural tools, and cement benches in Morang, Nepal.",
+                    "telephone": "+9779804094535",
+                    "email": "suppliersdipak@gmail.com",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Urlabari-07, Machindra Chowk",
+                        "addressLocality": "Urlabari",
+                        "addressRegion": "Koshi Province",
+                        "addressCountry": "NP"
+                    },
+                    "openingHoursSpecification": [
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                            "opens": "09:00",
+                            "closes": "18:00"
+                        }
+                    ],
+                    "sameAs": [
+                        "https://www.facebook.com/Dipaksuppliers",
+                        "https://www.youtube.com/@DipakSuppliers",
+                        "https://www.tiktok.com/@dipaksuppliers"
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://dipaksuppliers.com.np/#website",
+                    "url": "https://dipaksuppliers.com.np/",
+                    "name": "Dipak Suppliers",
+                    "publisher": {
+                        "@id": "https://dipaksuppliers.com.np/#business"
+                    }
+                },
+                {
+                    "@type": "WebPage",
+                    "@id": "https://dipaksuppliers.com.np/#webpage",
+                    "url": "https://dipaksuppliers.com.np/",
+                    "name": "Dipak Suppliers | Clean Water & Strong Harvest",
+                    "isPartOf": {
+                        "@id": "https://dipaksuppliers.com.np/#website"
+                    },
+                    "about": {
+                        "@id": "https://dipaksuppliers.com.np/#business"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body class="has-mobile-cta">
 
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary navigation">
         <div class="container">
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="Dipak Suppliers Logo" class="logo-img" decoding="async">
@@ -35,23 +101,24 @@
 
             <ul class="nav-links">
                 <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
-                <li><a href="bio-sand-filter.html" data-i18n="nav_filters">Bio-Sand Filters</a></li>
+                <li><a href="bio-sand-filter.html" data-i18n="nav_filters">Biosand filter</a></li>
                 <li><a href="agricultural-tools.html" data-i18n="nav_tools">Agricultural Tools</a></li>
                 <li><a href="cement-bench.html" data-i18n="nav_benches">Cement Benches</a></li>
                 <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
                 <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
             </ul>
             <div class="nav-controls">
-                <button id="lang-toggle-btn" class="lang-btn">NE</button>
-                <div class="mobile-menu-btn">☰</div>
+                <button id="lang-toggle-btn" class="lang-btn" type="button" aria-label="Switch language">NE</button>
+                <button class="mobile-menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
             </div>
         </div>
     </nav>
 
+    <main>
     <!-- Hero Section -->
     <section class="home-hero">
         <div class="home-hero-bg">
-            <img src="images/background.png" alt="Dipak Suppliers water and farming solutions" decoding="async" fetchpriority="high">
+            <img src="images/background.png" alt="Dipak Suppliers water and farming solutions" width="612" height="408" decoding="async" fetchpriority="high">
         </div>
         <div class="container">
             <div class="home-hero-copy">
@@ -166,7 +233,7 @@
     <section class="home-about-section section-padding">
         <div class="container home-about-grid">
             <div class="home-about-media">
-                <img src="images/whoarewe.png" alt="Dipak Suppliers team and services" loading="lazy" decoding="async">
+                <img src="images/whoarewe.png" alt="Dipak Suppliers team and services" width="800" height="533" loading="lazy" decoding="async">
             </div>
             <div class="home-about-copy">
                 <h2 class="section-title" data-i18n="about_title">हामी को हौं ?</h2>
@@ -192,7 +259,7 @@
             </div>
             <div class="home-bento-grid">
                 <article class="home-bento-card featured">
-                    <img src="images/bedmaker.png" alt="Bed Maker" loading="lazy" decoding="async">
+                    <img src="images/bedmaker.png" alt="Bed Maker agricultural tool" width="1280" height="960" loading="lazy" decoding="async">
                     <div class="home-bento-overlay">
                         <span>Best Seller</span>
                         <h3 data-i18n="hot_label_plow">Bed Maker</h3>
@@ -201,7 +268,7 @@
                     </div>
                 </article>
                 <article class="home-bento-card wide">
-                    <img src="images/Benchee.JPG" alt="Cement Bench" loading="lazy" decoding="async">
+                    <img src="images/Benchee.JPG" alt="Cement bench for outdoor seating" width="1600" height="1200" loading="lazy" decoding="async">
                     <div class="home-bento-overlay hover-reveal">
                         <h3 data-i18n="hot_label_bench">Cement Bench</h3>
                         <p>Strong, weather-resistant seating for public and garden spaces.</p>
@@ -235,7 +302,7 @@
             </div>
             <div class="home-solutions-grid">
                 <article class="home-solution-card">
-                    <img src="images/Bio.jpg" alt="Bio-Sand Filter" loading="lazy" decoding="async">
+                    <img src="images/Bio.jpg" alt="Bio-sand water filter" width="1067" height="1600" loading="lazy" decoding="async">
                     <div>
                         <h3 data-i18n="product_filter_title">बायो-स्यान्ड फिल्टर</h3>
                         <p data-i18n="product_filter_desc">Natural household water filtration designed to provide safer and cleaner drinking water.</p>
@@ -243,7 +310,7 @@
                     </div>
                 </article>
                 <article class="home-solution-card">
-                    <img src="images/halo.png" alt="Agricultural Tools" loading="lazy" decoding="async">
+                    <img src="images/halo.png" alt="Agricultural tools from Dipak Suppliers" loading="lazy" decoding="async">
                     <div>
                         <h3 data-i18n="product_tools_title">कृषि उपकरणहरू</h3>
                         <p data-i18n="product_tools_desc">Durable, practical tools designed for local farming work and daily field use.</p>
@@ -251,7 +318,7 @@
                     </div>
                 </article>
                 <article class="home-solution-card">
-                    <img src="images/Benchee.JPG" alt="Cement Bench" loading="lazy" decoding="async">
+                    <img src="images/Benchee.JPG" alt="Cement bench for garden and public spaces" width="1600" height="1200" loading="lazy" decoding="async">
                     <div>
                         <h3 data-i18n="product_bench_title">सिमेन्ट बेन्च</h3>
                         <p data-i18n="product_bench_desc">Strong concrete benches prepared for gardens, homes, parks, and public spaces.</p>
@@ -273,7 +340,7 @@
 
             <div class="specs-table-card">
                 <div class="specs-table-heading">
-                    <h2 data-i18n="specs_title">Technical Specifications</h2>
+                    <h3 data-i18n="specs_title">Technical Specifications</h3>
                     <p>Download the detailed PDF catalogs for our technical installations.</p>
                 </div>
                 <div class="specs-table-scroll">
@@ -298,6 +365,23 @@
                                             <span data-i18n="spec_view">View</span>
                                         </a>
                                         <a href="/images/Pdf_files/biosand-filter.pdf" download class="spec-download-link" aria-label="Download Bio-Sand Filter PDF">
+                                            <i class="fas fa-download" aria-hidden="true"></i>
+                                            <span data-i18n="spec_download">Download</span>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Bio-Sand Filter Proposal</td>
+                                <td>Water Filtration</td>
+                                <td>Aug 2026</td>
+                                <td>
+                                    <div class="spec-action-links">
+                                        <a href="/images/Pdf_files/proposal.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Bio-Sand Filter Proposal PDF">
+                                            <i class="fas fa-eye" aria-hidden="true"></i>
+                                            <span data-i18n="spec_view">View</span>
+                                        </a>
+                                        <a href="/images/Pdf_files/proposal.pdf" download class="spec-download-link" aria-label="Download Bio-Sand Filter Proposal PDF">
                                             <i class="fas fa-download" aria-hidden="true"></i>
                                             <span data-i18n="spec_download">Download</span>
                                         </a>
@@ -520,6 +604,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <div class="mobile-cta-bar">

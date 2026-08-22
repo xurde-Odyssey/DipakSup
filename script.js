@@ -1,7 +1,7 @@
 const translations = {
     en: {
         nav_home: "Home",
-        nav_filters: "Bio-Sand Filters",
+        nav_filters: "Biosand filter",
         nav_tools: "Agricultural Tools",
         nav_benches: "Cement Benches",
         nav_contact: "Contact Us",
@@ -680,8 +680,10 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks.classList.toggle('active');
             if (navLinks.classList.contains('active')) {
                 mobileBtn.textContent = '✕';
+                mobileBtn.setAttribute('aria-expanded', 'true');
             } else {
                 mobileBtn.textContent = '☰';
+                mobileBtn.setAttribute('aria-expanded', 'false');
             }
         });
 
@@ -689,6 +691,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && e.target !== mobileBtn) {
                 navLinks.classList.remove('active');
                 mobileBtn.textContent = '☰';
+                mobileBtn.setAttribute('aria-expanded', 'false');
             }
         });
 
@@ -696,6 +699,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
                 mobileBtn.textContent = '☰';
+                mobileBtn.setAttribute('aria-expanded', 'false');
             });
         });
     }
@@ -711,6 +715,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 if (navLinks.classList.contains('active')) {
                     navLinks.classList.remove('active');
+                    if (mobileBtn) {
+                        mobileBtn.textContent = '☰';
+                        mobileBtn.setAttribute('aria-expanded', 'false');
+                    }
                 }
             }
         });
