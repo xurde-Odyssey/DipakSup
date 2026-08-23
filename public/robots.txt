@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /dist/
-Disallow: /node_modules/
-Disallow: /products-ads.html
 
 Sitemap: https://dipaksuppliers.com.np/sitemap.xml

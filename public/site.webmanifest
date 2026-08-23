@@ -1,0 +1,23 @@
+{
+  "name": "Dipak Suppliers",
+  "short_name": "Dipak Suppliers",
+  "description": "Water filtration and agricultural solutions in Urlabari, Nepal.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f4a8c",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "458x280",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/ds.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
