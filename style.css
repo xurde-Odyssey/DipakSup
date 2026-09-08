@@ -3264,7 +3264,7 @@ body.has-mobile-cta {
 
 .home-hero-copy {
     width: min(660px, 100%);
-    padding: 6.5rem 0 8rem;
+    padding: 4.25rem 0 8rem;
 }
 
 .home-hero-copy h1,
@@ -3756,7 +3756,7 @@ body.has-mobile-cta {
     }
 
     .home-hero-copy {
-        padding: 5rem 0 7rem;
+        padding: 3.5rem 0 7rem;
     }
 
     .home-support-panel,
@@ -3782,7 +3782,7 @@ body.has-mobile-cta {
 
 @media (max-width: 640px) {
     .home-hero-copy {
-        padding: 3.5rem 0 6.4rem;
+        padding: 2.4rem 0 6.4rem;
     }
 
     .home-hero-actions,
