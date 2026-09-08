@@ -3230,7 +3230,7 @@ body.has-mobile-cta {
     position: relative;
     min-height: 640px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     overflow: hidden;
     background: #dff6ff;
 }
@@ -3264,7 +3264,7 @@ body.has-mobile-cta {
 
 .home-hero-copy {
     width: min(660px, 100%);
-    padding: 4.25rem 0 8rem;
+    padding: 2.75rem 0 8rem;
 }
 
 .home-hero-copy h1,
@@ -3756,7 +3756,7 @@ body.has-mobile-cta {
     }
 
     .home-hero-copy {
-        padding: 3.5rem 0 7rem;
+        padding: 2.5rem 0 7rem;
     }
 
     .home-support-panel,
