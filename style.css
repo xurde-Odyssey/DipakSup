@@ -4174,7 +4174,7 @@ body.has-mobile-cta {
     padding: clamp(4.5rem, 9vw, 7.5rem) 0;
     background:
         linear-gradient(125deg, rgba(5, 57, 91, 0.97), rgba(8, 137, 175, 0.9)),
-        url("images/background.png") center / cover;
+        url("images/backg.png") center / cover;
 }
 
 .blog-hero::after {
