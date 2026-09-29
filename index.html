@@ -512,28 +512,32 @@
     </section>
 
     <!-- Google Review -->
-    <section class="section-padding reviews-section">
+    <section class="section-padding reviews-section" aria-labelledby="reviews-title">
         <div class="container">
             <div class="reviews-heading">
                 <span class="contact-strip-badge" data-i18n="review_kicker">Google Reviews</span>
-                <h2 class="section-title" data-i18n="review_title">Trusted by Local Customers</h2>
+                <h2 id="reviews-title" class="section-title" data-i18n="review_title">Local people. Lasting trust.</h2>
+                <p class="reviews-nepali-heading" lang="ne">हाम्रा ग्राहक, हाम्रो विश्वास।</p>
                 <p data-i18n="review_subtitle">Feedback from customers who use our filters, tools, and cement products.</p>
             </div>
 
-            <div class="rating-summary-card">
-                <div class="rating-summary-score">
-                    <strong>4.9</strong>
-                    <span>/5</span>
-                </div>
-                <div class="rating-summary-copy">
-                    <div class="star-rating" aria-label="5 star rating">★★★★★</div>
-                    <p data-i18n="review_summary_text">Based on customer feedback from Google and direct inquiries.</p>
-                </div>
+            <div class="reviews-layout">
+            <aside class="rating-summary-card" aria-label="Customer rating summary">
                 <div class="rating-summary-source">
-                    <img src="images/google-logo.svg" alt="Google" width="533" height="544" loading="lazy" decoding="async">
+                    <img src="images/google-logo.svg" alt="" width="24" height="24" loading="lazy" decoding="async">
                     <span data-i18n="review_summary_source">Google feedback</span>
                 </div>
-            </div>
+                <div class="rating-summary-score"><strong>4.9</strong><span>/ 5</span></div>
+                <div class="star-rating" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+                <p class="rating-summary-note" data-i18n="review_summary_text">Based on customer feedback from Google and direct inquiries.</p>
+                <div class="reviews-local-note">
+                    <span lang="ne">तपाईंको अनुभव हाम्रो प्रेरणा।</span>
+                    <p data-i18n="review_invitation">Your experience means a lot to us.</p>
+                </div>
+                <a class="reviews-google-link" href="https://g.page/r/CSU7nm6HHF4bEBM/review" target="_blank" rel="noopener noreferrer">
+                    <span data-i18n="review_google_link">Give us review</span><span aria-hidden="true">↗</span>
+                </a>
+            </aside>
 
             <div class="reviews-grid">
                 <!-- Review 1 -->
@@ -543,17 +547,16 @@
                         <div class="user-info">
                             <h4>Ram Bahadur</h4>
                             <span><span data-i18n="local_guide">Local Guide</span> • 12 <span
-                                    data-i18n="reviews_count">समीक्षाहरू</span></span>
+                                    data-i18n="reviews_count">reviews</span></span>
                         </div>
                     </div>
                     <div class="review-meta-row">
-                        <div class="star-rating">★★★★★</div>
+                        <div class="star-rating" role="img" aria-label="5 out of 5 stars">★★★★★</div>
                         <span data-i18n="review_time_1">a month ago</span>
                     </div>
                     <span class="review-product-tag" data-i18n="review_tag_filter">Bio-Sand Filter</span>
-                    <p class="review-text" data-i18n="review_1_text">
-                        बायो-स्यान्ड फिल्टरले हाम्रो जीवन परिवर्तन गर्‍यो। घरमा सफा पानी!
-                    </p>
+                    <p class="review-text" data-i18n="review_1_text">Bio-sand filter changed our life. Clean water at home!</p>
+                    <p class="review-nepali" lang="ne">बायो-स्यान्ड फिल्टरले हाम्रो जीवन परिवर्तन गर्‍यो। घरमा सफा पानी!</p>
                     <div class="google-brand">
                         <img src="images/google-logo.svg" alt="Google" width="533" height="544" style="width: 20px; height: 20px;" loading="lazy" decoding="async">
                         <span data-i18n="posted_on">Posted on Google</span>
@@ -567,17 +570,16 @@
                         <div class="user-info">
                             <h4>Sita Sharma</h4>
                             <span><span data-i18n="local_guide">Local Guide</span> • 5 <span
-                                    data-i18n="reviews_count">समीक्षाहरू</span></span>
+                                    data-i18n="reviews_count">reviews</span></span>
                         </div>
                     </div>
                     <div class="review-meta-row">
-                        <div class="star-rating">★★★★★</div>
+                        <div class="star-rating" role="img" aria-label="5 out of 5 stars">★★★★★</div>
                         <span data-i18n="review_time_2">2 months ago</span>
                     </div>
                     <span class="review-product-tag" data-i18n="review_tag_tools">Agricultural Tools</span>
-                    <p class="review-text" data-i18n="review_2_text">
-                        उत्कृष्ट कृषि औजारहरू। धेरै टिकाउ र आधुनिक ।
-                    </p>
+                    <p class="review-text" data-i18n="review_2_text">Excellent agricultural tools. Very durable and modern.</p>
+                    <p class="review-nepali" lang="ne">उत्कृष्ट कृषि औजारहरू। धेरै टिकाउ र आधुनिक।</p>
                     <div class="google-brand">
                         <img src="images/google-logo.svg" alt="Google" width="533" height="544" style="width: 20px; height: 20px;" loading="lazy" decoding="async">
                         <span data-i18n="posted_on">Posted on Google</span>
@@ -587,21 +589,19 @@
                 <!-- Review 3 -->
                 <div class="google-review-card">
                     <div class="review-header">
-                        <div class="user-avatar" style="background-color: #188038;">G</div>
+                        <div class="user-avatar" style="background-color: var(--secondary-blue);">G</div>
                         <div class="user-info">
                             <h4>Gopal Thapa</h4>
                             <span><span data-i18n="local_guide">Local Guide</span> • 24 <span
-                                    data-i18n="reviews_count">समीक्षाहरू</span></span>
+                                    data-i18n="reviews_count">reviews</span></span>
                         </div>
                     </div>
                     <div class="review-meta-row">
-                        <div class="star-rating">★★★★★</div>
+                        <div class="star-rating" role="img" aria-label="5 out of 5 stars">★★★★★</div>
                         <span data-i18n="review_time_3">3 weeks ago</span>
                     </div>
                     <span class="review-product-tag" data-i18n="review_tag_bedmaker">Bed Maker</span>
-                    <p class="review-text" data-i18n="review_3_text">
-                        समय र श्रमको बचत गर्ने, प्रयोगकर्तालाई राम्रो पकड दिने सुविधायुक्त डिजाइन भएको बेड मेकर।
-                    </p>
+                    <p class="review-text" data-i18n="review_3_text">The bed maker saves time and labor, with a comfortable grip and useful design.</p>
                     <div class="google-brand">
                         <img src="images/google-logo.svg" alt="Google" width="533" height="544" style="width: 20px; height: 20px;" loading="lazy" decoding="async">
                         <span data-i18n="posted_on">Posted on Google</span>
@@ -615,24 +615,22 @@
                         <div class="user-info">
                             <h4>Anjali K.</h4>
                             <span><span data-i18n="local_guide">Local Guide</span> • 8 <span
-                                    data-i18n="reviews_count">समीक्षाहरू</span></span>
+                                    data-i18n="reviews_count">reviews</span></span>
                         </div>
                     </div>
                     <div class="review-meta-row">
-                        <div class="star-rating">★★★★★</div>
+                        <div class="star-rating" role="img" aria-label="5 out of 5 stars">★★★★★</div>
                         <span data-i18n="review_time_4">1 week ago</span>
                     </div>
                     <span class="review-product-tag" data-i18n="review_tag_service">Service</span>
-                    <p class="review-text" data-i18n="review_4_text">
-                        उत्कृष्ट सेवा र छिटो डेलिभरी। फेरि किन्नेछु!
-                    </p>
+                    <p class="review-text" data-i18n="review_4_text">Excellent service and fast delivery. Will buy again!</p>
                     <div class="google-brand">
                         <img src="images/google-logo.svg" alt="Google" width="533" height="544" style="width: 20px; height: 20px;" loading="lazy" decoding="async">
                         <span data-i18n="posted_on">Posted on Google</span>
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
     </section>
 

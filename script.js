@@ -99,10 +99,12 @@ const translations = {
 
         // Reviews
         review_kicker: "Google Reviews",
-        review_title: "Trusted by Local Customers",
+        review_title: "Local people. Lasting trust.",
         review_subtitle: "Feedback from customers who use our filters, tools, and cement products.",
         review_summary_text: "Based on customer feedback from Google and direct inquiries.",
         review_summary_source: "Google feedback",
+        review_invitation: "Your experience means a lot to us.",
+        review_google_link: "Give us review",
         review_1_text: "Bio-sand filter changed our life. Clean water at home!",
         review_2_text: "Excellent agricultural tools. Very durable and modern.",
         review_3_text: "The bed maker saves time and labor, with a comfortable grip and useful design.",
@@ -415,6 +417,8 @@ const translations = {
         review_subtitle: "हाम्रा फिल्टर, औजार र सिमेन्ट उत्पादन प्रयोग गर्ने ग्राहकहरूको प्रतिक्रिया।",
         review_summary_text: "Google र प्रत्यक्ष सोधपुछबाट प्राप्त ग्राहक प्रतिक्रियामा आधारित।",
         review_summary_source: "Google प्रतिक्रिया",
+        review_invitation: "आफ्नो अनुभव हामीसँग साझा गर्नुहोस्।",
+        review_google_link: "हामीलाई समीक्षा दिनुहोस्",
         review_1_text: "बायो-स्यान्ड फिल्टरले हाम्रो जीवन परिवर्तन गर्‍यो। घरमा सफा पानी!",
         review_2_text: "उत्कृष्ट कृषि औजारहरू। धेरै टिकाउ र आधुनिक ।",
         review_3_text: "समय र श्रमको बचत गर्ने, प्रयोगकर्तालाई राम्रो पकड दिने सुविधायुक्त डिजाइन भएको बेड मेकर।",
