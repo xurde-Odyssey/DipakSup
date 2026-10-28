@@ -93,7 +93,7 @@
     </script>
 </head>
 
-<body class="has-mobile-cta">
+<body class="has-mobile-cta contact-page">
 
     <!-- Navigation -->
     <nav class="navbar" aria-label="Primary navigation">
@@ -104,7 +104,45 @@
 
             <ul class="nav-links">
                 <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                <li><a href="index.html#products" data-i18n="nav_products">Product</a></li>
+                <li class="products-nav-item">
+                    <details class="products-menu">
+                        <summary><span data-i18n="nav_products">Products</span><span class="products-menu-chevron" aria-hidden="true">⌄</span></summary>
+                        <div class="products-menu-panel">
+                            <div class="products-menu-grid">
+                            <div class="products-menu-group">
+                                <h2 data-i18n="docs_category_water">Water Filtration</h2>
+                                <ul>
+                                    <li><a href="bio-sand-filter.html" data-i18n="product_filter_title">Bio-Sand Filter</a></li>
+                                </ul>
+                            </div>
+                            <div class="products-menu-group">
+                                <h2 data-i18n="product_tools_title">Agricultural Tools</h2>
+                                <ul>
+                                    <li><a href="agricultural-tools.html#plow" data-i18n="tools_card_plow_title">Bed Maker</a></li>
+                                    <li><a href="agricultural-tools.html#wheelbarrow" data-i18n="tools_card_wheelbarrow_title">Strong Urbana Wheelbarrow</a></li>
+                                    <li><a href="agricultural-tools.html#fork" data-i18n="tools_card_fork_title">Container Hoe Fork</a></li>
+                                    <li><a href="agricultural-tools.html#dhwani" data-i18n="tools_card_dhwani_title">Dhwani Yantra</a></li>
+                                    <li><a href="agricultural-tools.html#urea" data-i18n="tools_card_urea_title">Urea Applicator</a></li>
+                                </ul>
+                            </div>
+                            <div class="products-menu-group">
+                                <h2 data-i18n="docs_category_cement">Cement Products</h2>
+                                <ul>
+                                    <li><a href="cement-bench.html" data-i18n="nav_benches">Cement Benches</a></li>
+                                    <li><a href="cement-bench.html#rcc-table-set" data-i18n="rcc_table_card_title">Concrete Table Set</a></li>
+                                </ul>
+                            </div>
+                            <div class="products-menu-group">
+                                <h2 data-i18n="nav_household">Household</h2>
+                                <ul>
+                                    <li><a href="agricultural-tools.html#chulo" data-i18n="tools_card_chulo_title">Chulo</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                            <a class="products-menu-all" href="index.html#products"><span data-i18n="nav_all_products">View all products</span><span aria-hidden="true">↗</span></a>
+                        </div>
+                    </details>
+                </li>
                 <li><a href="contact.html" class="active" aria-current="page" data-i18n="nav_contact_short">Contact</a></li>
                 <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
             </ul>
@@ -116,112 +154,31 @@
     </nav>
 
     <main>
-    <!-- Page Header -->
-    <header class="page-header bg-teal">
-        <div class="container text-center fade-in">
-            <h1 data-i18n="contact_page_title">सम्पर्कमा रहनुहोस्</h1>
-            <p data-i18n="contact_page_subtitle">हामीलाई तपाईंको सुझाव सुन्न मन पर्छ।</p>
+    <header class="contact-hero">
+        <div class="container">
+            <h1 data-i18n="contact_page_title">Get in Touch</h1>
         </div>
     </header>
 
-    <!-- About Story -->
-    <section class="section-padding">
-        <div class="container text-center">
-            <h2 class="section-title" data-i18n="contact_about_title">
-                हाम्रो बारेमा</h2>
-            <div class="wave-pattern"></div>
-            <div class="about-split">
-                <div class="about-content">
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <i class="fas fa-calendar-check text-teal"></i>
-                            <div class="highlight-info">
-                                <strong data-i18n="contact_about_established_title">स्थापना:</strong>
-                                <span data-i18n="contact_about_established_desc">२०७५ असोज १ (घरेलु उद्योग अन्तर्गत)</span>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-rocket text-teal"></i>
-                            <div class="highlight-info">
-                                <strong data-i18n="contact_about_journey_title">हाम्रो यात्रा:</strong>
-                                <span data-i18n="contact_about_journey_desc">२०८० माघ ४ गतेदेखि 'डि एण्ड डि गृल इन्जिनियरिङ' मार्फत सेवा विस्तार।</span>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-cogs text-teal"></i>
-                            <div class="highlight-info">
-                                <strong data-i18n="contact_about_expertise_title">विशेषज्ञता:</strong>
-                                <span data-i18n="contact_about_expertise_desc">सिमेन्ट सामाग्री र उन्नत कृषि औजारहरूको उत्पादन।</span>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-tools text-teal"></i>
-                            <div class="highlight-info">
-                                <strong data-i18n="contact_about_products_title">मुख्य उत्पादनहरू:</strong>
-                                <span data-i18n="contact_about_products_desc">आधुनिक कृषि औजार , सिमेन्ट बेन्च तथा पनि सुद्दिकरण फिल्टर ।</span>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-award text-teal"></i>
-                            <div class="highlight-info">
-                                <strong data-i18n="contact_about_quality_title">दर्ता र गुणस्तर:</strong>
-                                <span data-i18n="contact_about_quality_desc">कोशी प्रदेश, मोरङमा विधिवत दर्ता भई स्तरीय सेवा।</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-video">
-                    <div class="about-video-container">
-                        <iframe src="https://www.youtube.com/embed/hAY2wu2isH4" title="Dipak Suppliers Advertisement" loading="lazy"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Info & Form -->
-    <section class="section-padding bg-light">
-        <div class="container grid split-layout">
-            <!-- Contact Info -->
-            <div class="contact-info-block">
-                <h3 data-i18n="contact_info_title">Contact Information</h3>
-
-                <div class="info-item">
-                    <div class="info-header">
-                        <div class="icon-3d"><i class="fas fa-map-marker-alt"></i></div>
-                        <h4 data-i18n="contact_visit_us">Visit Us</h4>
-                    </div>
-                    <address>
-                        Urlabari-07, Machindra Chowk<br>
-                        Morang, Nepal
-                    </address>
+    <section class="contact-main" aria-labelledby="contact-details-title">
+        <div class="container contact-layout">
+            <div class="contact-direct">
+                <span class="contact-eyebrow" data-i18n="contact_local_team">YOUR LOCAL TEAM</span>
+                <h2 id="contact-details-title">Dipak Suppliers</h2>
+                <p class="contact-direct-intro" data-i18n="contact_direct_intro">Practical advice, product details, and support. Start a conversation with us.</p>
+                <a class="contact-phone" href="tel:+9779804094535">+977-9804094535 <span aria-hidden="true">↗</span></a>
+                <div class="contact-quick-actions">
+                    <a class="contact-action contact-action-light" href="tel:+9779804094535"><i class="fas fa-phone-alt" aria-hidden="true"></i><span data-i18n="mobile_cta_call">Call Now</span></a>
+                    <a class="contact-action contact-action-outline" href="https://wa.me/9779804094535" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i><span data-i18n="home_contact_whatsapp_label">WhatsApp</span></a>
                 </div>
-
-                <div class="info-item">
-                    <div class="info-header">
-                        <div class="icon-3d"><i class="fas fa-phone-alt"></i></div>
-                        <h4 data-i18n="contact_call_us">Call Us</h4>
-                    </div>
-                    <p><a href="tel:+9779804094535">+977-9804094535</a></p>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-header">
-                        <div class="icon-3d"><i class="fas fa-envelope"></i></div>
-                        <h4 data-i18n="contact_email_us">Email Us</h4>
-                    </div>
-                    <p><a href="mailto:suppliersdipak@gmail.com">suppliersdipak@gmail.com</a></p>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-header">
-                        <div class="icon-3d"><i class="fas fa-hashtag"></i></div>
-                        <h4 data-i18n="contact_follow_us">Follow Us</h4>
-                    </div>
-                    <div class="social-links" style="margin-left: 52px; margin-top: 5px;">
+                <dl class="contact-details">
+                    <div><dt data-i18n="contact_visit_us">Visit Us</dt><dd><a href="https://maps.app.goo.gl/cpZfFxSo7UM16rUb8" target="_blank" rel="noopener noreferrer">Urlabari-07, Machindra Chowk<br>Morang, Nepal <span aria-hidden="true">↗</span></a></dd></div>
+                    <div><dt data-i18n="home_contact_hours_label">Hours</dt><dd data-i18n="home_contact_hours_value">Sun - Fri, 9:00 AM - 6:00 PM</dd></div>
+                    <div><dt data-i18n="contact_email_us">Email Us</dt><dd><a href="mailto:suppliersdipak@gmail.com">suppliersdipak@gmail.com</a></dd></div>
+                </dl>
+                <div class="contact-social"><span data-i18n="contact_follow_us">Follow Us</span>
+                    <div class="social-links">
                         <a href="https://www.facebook.com/Dipaksuppliers" class="social-btn facebook"
                             title="Facebook" aria-label="Dipak Suppliers on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://wa.me/9779804094535" class="social-btn whatsapp" title="WhatsApp" aria-label="Chat with Dipak Suppliers on WhatsApp" target="_blank" rel="noopener noreferrer"><i
@@ -231,12 +188,11 @@
                         <a href="https://www.tiktok.com/@dipaksuppliers" class="social-btn tiktok" title="TikTok" aria-label="Dipak Suppliers on TikTok" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
-
-
             </div>
 
             <div class="contact-form-block">
-                <h3><i class="fas fa-paper-plane"></i> <span data-i18n="contact_feedback_title">Give us feedback</span></h3>
+                <h2 data-i18n="contact_feedback_title">Send us a message</h2>
+                <p class="contact-form-intro" data-i18n="contact_form_intro">Tell us what you’re looking for. All fields are required.</p>
                 <form action="https://formsubmit.co/suppliersdipak@gmail.com" method="POST">
                     <input type="hidden" name="_subject" value="New Feedback from Dipak Suppliers Website!">
                     <input type="hidden" name="_template" value="table">
@@ -245,13 +201,13 @@
                         <label for="name">
                             <i class="fas fa-user"></i> <span data-i18n="contact_name_label">Your Name</span>
                         </label>
-                        <input type="text" id="name" name="name" placeholder="Ram Bahadur" data-i18n-placeholder="contact_name_placeholder" required>
+                        <input type="text" id="name" name="name" autocomplete="name" placeholder="Ram Bahadur" data-i18n-placeholder="contact_name_placeholder" required>
                     </div>
                     <div class="form-group">
                         <label for="email">
                             <i class="fas fa-envelope"></i> <span data-i18n="contact_email_label">Email Address</span>
                         </label>
-                        <input type="email" id="email" name="email" placeholder="rambahadur@gmail.com" data-i18n-placeholder="contact_email_placeholder" required>
+                        <input type="email" id="email" name="email" autocomplete="email" placeholder="rambahadur@gmail.com" data-i18n-placeholder="contact_email_placeholder" required>
                     </div>
                     <div class="form-group">
                         <label for="subject">
@@ -276,11 +232,42 @@
         </div>
     </section>
 
+    <!-- About Story -->
+    <section class="contact-about-section" aria-labelledby="contact-about-title">
+        <div class="container contact-about-container">
+            <h2 id="contact-about-title" data-i18n="contact_about_title">About Us</h2>
+            <p class="contact-about-intro" data-i18n="contact_story_intro">Rooted in Urlabari, we bring practical products and dependable local service to homes, farms, and communities.</p>
+            <ol class="contact-about-grid">
+                <li class="contact-about-item">
+                    <span class="contact-about-number" aria-hidden="true">1.</span>
+                    <h3 data-i18n="contact_story_who_title">Who We Are</h3>
+                    <p data-i18n="contact_story_who_desc">Dipak Suppliers was established on Ashoj 1, 2075 BS, under Domestic Industry registration in Morang, Koshi Province.</p>
+                </li>
+                <li class="contact-about-item">
+                    <span class="contact-about-number" aria-hidden="true">2.</span>
+                    <h3 data-i18n="contact_story_what_title">What We Do</h3>
+                    <p data-i18n="contact_story_what_desc">We produce cement products and modern agricultural tools, and supply bio-sand filters for household water purification.</p>
+                </li>
+                <li class="contact-about-item">
+                    <span class="contact-about-number" aria-hidden="true">3.</span>
+                    <h3 data-i18n="contact_story_help_title">How We Help</h3>
+                    <p data-i18n="contact_story_help_desc">From choosing a product to installation and daily care, we offer practical guidance and direct support for your needs.</p>
+                </li>
+                <li class="contact-about-item">
+                    <span class="contact-about-number" aria-hidden="true">4.</span>
+                    <h3 data-i18n="contact_story_journey_title">Growing With Our Community</h3>
+                    <p data-i18n="contact_story_journey_desc">Since Magh 4, 2080 BS, we have expanded our services through D & D Grill Engineering, building on our commitment to local customers.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+
     <!-- Full Width Map Section -->
-    <section class="container" style="margin-top: 40px; margin-bottom: 40px;" aria-label="Dipak Suppliers map location">
-        <div class="map-placeholder"
-            style="width: 100%; height: 400px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+    <section class="container contact-map-section" aria-labelledby="contact-map-title">
+        <div class="contact-map-heading"><div><span class="contact-eyebrow" data-i18n="contact_visit_us">Visit Us</span><h2 id="contact-map-title">Urlabari, Machindra Chowk</h2></div><a class="contact-directions" href="https://maps.app.goo.gl/cpZfFxSo7UM16rUb8" target="_blank" rel="noopener noreferrer"><span data-i18n="contact_directions">Get directions</span> <span aria-hidden="true">↗</span></a></div>
+        <div class="map-placeholder">
             <iframe
+                title="Dipak Suppliers location in Urlabari"
                 src="https://maps.google.com/maps?q=Dipak+Suppliers+Urlabari+Nepal&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">

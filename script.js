@@ -1,6 +1,24 @@
 const translations = {
     en: {
-        nav_products: "Product",
+        contact_story_intro: "Rooted in Urlabari, we bring practical products and dependable local service to homes, farms, and communities.",
+        contact_story_who_title: "Who We Are",
+        contact_story_who_desc: "Dipak Suppliers was established on Ashoj 1, 2075 BS, under Domestic Industry registration in Morang, Koshi Province.",
+        contact_story_what_title: "What We Do",
+        contact_story_what_desc: "We produce cement products and modern agricultural tools, and supply bio-sand filters for household water purification.",
+        contact_story_help_title: "How We Help",
+        contact_story_help_desc: "From choosing a product to installation and daily care, we offer practical guidance and direct support for your needs.",
+        contact_story_journey_title: "Growing With Our Community",
+        contact_story_journey_desc: "Since Magh 4, 2080 BS, we have expanded our services through D & D Grill Engineering, building on our commitment to local customers.",
+
+        contact_local_team: "YOUR LOCAL TEAM",
+        contact_direct_intro: "Practical advice, product details, and support. Start a conversation with us.",
+        contact_form_intro: "Tell us what you’re looking for. All fields are required.",
+        contact_directions: "Get directions",
+        contact_message_visit: "Send a message or plan a visit",
+
+        nav_products: "Products",
+        nav_all_products: "View all products",
+        nav_household: "Household",
         docs_search: "Search products by name or category",
         docs_search_placeholder: "Search products or categories…",
         docs_category_all: "All Products",
@@ -229,13 +247,13 @@ const translations = {
         bench_cta_title: "Strong and Durable for Garden",
         bench_cta_desc: "Prepared for maximum durability for the garden.",
         cta_get_quote: "Get a Quote",
-        contact_page_title: "Stay in Touch",
-        contact_page_subtitle: "We love to hear your suggestions.",
+        contact_page_title: "Get in Touch",
+        contact_page_subtitle: "Questions about a product, pricing, or installation? Get in touch with our team in Urlabari.",
         contact_about_title: "About Us",
         contact_about_established_title: "Established:",
         contact_about_established_desc: "Ashoj 1, 2075 BS (under Domestic Industry registration)",
         contact_info_title: "Contact Information",
-        contact_feedback_title: "Give us feedback",
+        contact_feedback_title: "Send us a message",
         contact_visit_us: "Visit Us",
         contact_call_us: "Call Us",
         contact_email_us: "Email Us",
@@ -346,7 +364,25 @@ const translations = {
         footer_hours_title: "Business Hours"
     },
     ne: {
+        contact_story_intro: "उर्लाबारीबाट हामी घर, खेती र समुदायका लागि उपयोगी उत्पादन र भरपर्दो स्थानीय सेवा प्रदान गर्छौँ।",
+        contact_story_who_title: "हामी को हौँ",
+        contact_story_who_desc: "दीपक सप्लायर्स २०७५ असोज १ गते कोशी प्रदेश, मोरङमा घरेलु उद्योग अन्तर्गत स्थापना भएको हो।",
+        contact_story_what_title: "हामी के गर्छौँ",
+        contact_story_what_desc: "हामी सिमेन्ट सामग्री र आधुनिक कृषि औजार उत्पादन गर्छौँ र घरायसी पानी शुद्धीकरणका लागि बायो-स्यान्ड फिल्टर उपलब्ध गराउँछौँ।",
+        contact_story_help_title: "हामी कसरी सहयोग गर्छौँ",
+        contact_story_help_desc: "उत्पादन छनोटदेखि जडान र दैनिक हेरचाहसम्म, हामी तपाईंको आवश्यकताअनुसार व्यावहारिक सल्लाह र प्रत्यक्ष सहयोग प्रदान गर्छौँ।",
+        contact_story_journey_title: "समुदायसँगै अघि बढ्दै",
+        contact_story_journey_desc: "२०८० माघ ४ गतेदेखि डि एण्ड डि ग्रिल इन्जिनियरिङमार्फत सेवा विस्तार गर्दै हामी स्थानीय ग्राहकप्रतिको प्रतिबद्धतासँगै अघि बढिरहेका छौँ।",
+
+        contact_local_team: "तपाईंको स्थानीय टोली",
+        contact_direct_intro: "व्यावहारिक सल्लाह, उत्पादनको जानकारी र सहयोगका लागि हामीसँग कुरा गर्नुहोस्।",
+        contact_form_intro: "तपाईंलाई के चाहिएको छ बताउनुहोस्। सबै विवरण भर्नुहोस्।",
+        contact_directions: "बाटो हेर्नुहोस्",
+        contact_message_visit: "सन्देश पठाउनुहोस् वा भेट्न आउनुहोस्",
+
         nav_products: "उत्पादनहरू",
+        nav_all_products: "सबै उत्पादनहरू हेर्नुहोस्",
+        nav_household: "घरायसी सामान",
         docs_search: "नाम वा वर्गअनुसार उत्पादन खोज्नुहोस्",
         docs_search_placeholder: "उत्पादन वा वर्ग खोज्नुहोस्…",
         docs_category_all: "सबै उत्पादनहरू",
@@ -575,13 +611,13 @@ const translations = {
         bench_cta_title: "बगैंचाको लागि बलियो र टिकाउ",
         bench_cta_desc: "बगैंचाको लागि बलियो र टिकाउपनको लागि तयार पारिएका छन्।",
         cta_get_quote: "कोटेशन लिनुहोस्",
-        contact_page_title: "सम्पर्कमा रहनुहोस्",
-        contact_page_subtitle: "हामीलाई तपाईंको सुझाव सुन्न मन पर्छ।",
+        contact_page_title: "सम्पर्क गर्नुहोस्",
+        contact_page_subtitle: "उत्पादन, मूल्य वा जडानबारे जिज्ञासा छ? उर्लाबारीमा हाम्रो टोलीसँग सम्पर्क गर्नुहोस्।",
         contact_about_title: "हाम्रो बारेमा",
         contact_about_established_title: "स्थापना:",
         contact_about_established_desc: "२०७५ असोज १ (घरेलु उद्योग अन्तर्गत)",
         contact_info_title: "सम्पर्क जानकारी",
-        contact_feedback_title: "हामीलाई प्रतिक्रिया दिनुहोस्",
+        contact_feedback_title: "हामीलाई सन्देश पठाउनुहोस्",
         contact_visit_us: "हामीलाई भेट्नुहोस्",
         contact_call_us: "हामीलाई फोन गर्नुहोस्",
         contact_email_us: "हामीलाई इमेल गर्नुहोस्",
@@ -804,16 +840,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
 
+    const productsMenu = document.querySelector('.products-menu');
+    const closeProductsMenu = () => { if (productsMenu) productsMenu.open = false; };
+    document.addEventListener('click', event => {
+        if (productsMenu && !productsMenu.contains(event.target)) closeProductsMenu();
+    });
+    productsMenu?.addEventListener('focusout', event => {
+        if (!productsMenu.contains(event.relatedTarget)) closeProductsMenu();
+    });
+    productsMenu?.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', closeProductsMenu);
+    });
+    // Reset disclosures when moving between the desktop and mobile navigation.
+    matchMedia('(max-width: 768px)').addEventListener('change', () => {
+        closeProductsMenu();
+        navLinks?.classList.remove('active');
+        if (mobileBtn) {
+            mobileBtn.textContent = '☰';
+            mobileBtn.setAttribute('aria-expanded', 'false');
+            mobileBtn.setAttribute('aria-label', 'Open navigation menu');
+        }
+    });
+
     if (mobileBtn) {
         mobileBtn.addEventListener('click', (e) => {
             e.stopPropagation();
+            closeProductsMenu();
             navLinks.classList.toggle('active');
             if (navLinks.classList.contains('active')) {
                 mobileBtn.textContent = '✕';
                 mobileBtn.setAttribute('aria-expanded', 'true');
+                mobileBtn.setAttribute('aria-label', 'Close navigation menu');
             } else {
                 mobileBtn.textContent = '☰';
                 mobileBtn.setAttribute('aria-expanded', 'false');
+                mobileBtn.setAttribute('aria-label', 'Open navigation menu');
             }
         });
 
@@ -822,6 +883,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.classList.remove('active');
                 mobileBtn.textContent = '☰';
                 mobileBtn.setAttribute('aria-expanded', 'false');
+                mobileBtn.setAttribute('aria-label', 'Open navigation menu');
             }
         });
 
@@ -830,15 +892,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.classList.remove('active');
                 mobileBtn.textContent = '☰';
                 mobileBtn.setAttribute('aria-expanded', 'false');
+                mobileBtn.setAttribute('aria-label', 'Open navigation menu');
             });
         });
     }
 
     document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && productsMenu?.open) {
+            closeProductsMenu();
+            productsMenu.querySelector('summary').focus();
+            return;
+        }
         if (event.key === 'Escape' && navLinks?.classList.contains('active')) {
             navLinks.classList.remove('active');
             mobileBtn.textContent = '☰';
             mobileBtn.setAttribute('aria-expanded', 'false');
+            mobileBtn.setAttribute('aria-label', 'Open navigation menu');
             mobileBtn.focus();
         }
     });
