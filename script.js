@@ -1,10 +1,42 @@
 const translations = {
     en: {
+        nav_products: "Product",
+        docs_search: "Search products by name or category",
+        docs_search_placeholder: "Search products or categories…",
+        docs_category_all: "All Products",
+        docs_category_water: "Water Filtration",
+        docs_category_agriculture: "Agricultural Machinery",
+        docs_category_cement: "Cement Products",
+        docs_category_general: "General Information",
+        docs_updated: "Last updated",
+        docs_view: "View PDF",
+        docs_proposal_title: "Product Proposal",
+        docs_proposal_desc: "An overview of our products and proposed solutions.",
+        docs_empty: "No documents match. Try another product name or category.",
+        docs_count: "{count} documents shown",
+        catalogue_explore: "Explore products",
+        catalogue_full_details: "View full details",
+        catalogue_filter_specs: "Household use · Sand and gravel filtration · Daily care guide available",
+        catalogue_tool_specs: "Bed preparation · Material transport · Fertilizer application",
+        catalogue_bench_specs: "Concrete construction · Outdoor use · Finish options available",
+
+        showcase_eyebrow: "DIPAK SUPPLIERS · URLABARI, NEPAL",
+        showcase_title: "Better water. Better farming. Better everyday.",
+        showcase_desc: "Practical water filters, dependable farm tools, and durable outdoor seating. Find the right solution with support from your local team.",
+        showcase_featured: "Made for everyday living",
+        showcase_slogan: "Quality you trust, Product you need.",
+        showcase_water: "Water solutions",
+        showcase_farm: "Practical tools for productive days.",
+        showcase_filter: "Simple filtration for daily household use.",
+        showcase_bench: "A lasting place to sit, gather, and connect.",
+        showcase_products: "Built for the way you live and work.",
+
         nav_home: "Home",
         nav_filters: "Biosand filter",
         nav_tools: "Agricultural Tools",
         nav_benches: "Cement Benches",
         nav_contact: "Contact Us",
+        nav_contact_short: "Contact",
         nav_blog: "Blog",
         hero_title: "Dipak Suppliers",
         hero_desc: "We provide high-quality bio-sand filters and agricultural tools for your community. Certified solutions for health and productivity.",
@@ -190,7 +222,7 @@ const translations = {
         rcc_table_title: "Eco-Friendly RCC Concrete Table Set",
         rcc_table_subtitle: "A complete table-and-bench solution for parks, campuses, waiting areas, and community spaces.",
         rcc_table_category: "Outdoor Public Furniture",
-        rcc_table_card_title: "Heavy-Duty Concrete Table Set",
+        rcc_table_card_title: "Concrete Table Set",
         rcc_table_desc_1: "Offered by Deepak Suppliers, Urlabari-7, Morang. This reinforced cement concrete table set is a heavy-duty, weather-resistant outdoor furniture solution for public and community spaces.",
         rcc_table_desc_2: "Built with steel-reinforced concrete and locally sourced materials, it is a durable, low-maintenance, and cost-effective alternative to traditional wooden or metal furniture.",
         bench_gallery_title: "Gallery",
@@ -314,11 +346,43 @@ const translations = {
         footer_hours_title: "Business Hours"
     },
     ne: {
+        nav_products: "उत्पादनहरू",
+        docs_search: "नाम वा वर्गअनुसार उत्पादन खोज्नुहोस्",
+        docs_search_placeholder: "उत्पादन वा वर्ग खोज्नुहोस्…",
+        docs_category_all: "सबै उत्पादनहरू",
+        docs_category_water: "पानी शुद्धीकरण",
+        docs_category_agriculture: "कृषि उपकरणहरू",
+        docs_category_cement: "सिमेन्ट उत्पादनहरू",
+        docs_category_general: "सामान्य जानकारी",
+        docs_updated: "पछिल्लो अद्यावधिक",
+        docs_view: "PDF हेर्नुहोस्",
+        docs_proposal_title: "उत्पादन प्रस्ताव",
+        docs_proposal_desc: "हाम्रा उत्पादन र प्रस्तावित समाधानहरूको संक्षिप्त विवरण।",
+        docs_empty: "कुनै कागजात भेटिएन। अर्को उत्पादनको नाम वा वर्ग खोज्नुहोस्।",
+        docs_count: "{count} कागजात देखाइएका छन्",
+        catalogue_explore: "उत्पादनहरू हेर्नुहोस्",
+        catalogue_full_details: "पूरा विवरण हेर्नुहोस्",
+        catalogue_filter_specs: "घरायसी प्रयोग · बालुवा र गिट्टीबाट फिल्टर · दैनिक हेरचाह निर्देशिका उपलब्ध",
+        catalogue_tool_specs: "ड्याङ तयारी · सामग्री ढुवानी · मल प्रयोग",
+        catalogue_bench_specs: "कंक्रिट निर्माण · बाहिरी प्रयोग · विभिन्न फिनिसिङ विकल्प उपलब्ध",
+
+        showcase_eyebrow: "दीपक सप्लायर्स · उर्लाबारी, नेपाल",
+        showcase_title: "सफा पानी। सहज खेती। राम्रो दैनिकी।",
+        showcase_desc: "व्यवहारिक पानी फिल्टर, भरपर्दो कृषि उपकरण र टिकाउ बाहिरी बसाइका सामग्री। स्थानीय टोलीको सहयोगमा सही उत्पादन छान्नुहोस्।",
+        showcase_featured: "दैनिक जीवनका लागि",
+        showcase_slogan: "तपाईंको विश्वासको गुणस्तर, तपाईंलाई चाहिने उत्पादन।",
+        showcase_water: "पानीका समाधानहरू",
+        showcase_farm: "उत्पादनशील दिनका लागि व्यवहारिक उपकरण।",
+        showcase_filter: "घरको दैनिक प्रयोगका लागि सरल पानी फिल्टर।",
+        showcase_bench: "बस्न, भेट्न र जोडिनका लागि टिकाउ स्थान।",
+        showcase_products: "तपाईंको जीवन र कामका लागि बनेका उत्पादन।",
+
         nav_home: "होम",
         nav_filters: "बायो-स्यान्ड फिल्टर",
         nav_tools: "कृषि उपकरणहरू",
         nav_benches: "सिमेन्ट बेन्च",
         nav_contact: "सम्पर्क",
+        nav_contact_short: "सम्पर्क",
         nav_blog: "ब्लग",
         hero_title: "दीपक सप्लायर्स",
         hero_desc: "हामी तपाईंको समुदायलाई उच्च गुणस्तरको बायो-स्यान्ड फिल्टर र कृषि उपकरणहरू प्रदान गर्दछौं। स्वास्थ्य र उत्पादकताको लागि प्रमाणित समाधान।",
@@ -361,7 +425,7 @@ const translations = {
         product_bench_desc: "बगैंचा, घर, पार्क र सार्वजनिक स्थानका लागि तयार पारिएका बलिया कङ्क्रिट बेन्चहरू।",
         product_view_details: "विस्तृत हेर्नुहोस्",
         specs_title: "उत्पादन स्पेसिफिकेशन",
-        specs_intro: "हाम्रा प्रमुख उत्पादनहरू छिटो हेर्नुहोस्। विस्तृत PDF विवरण पछि थपिनेछ।",
+        specs_intro: "हाम्रा उत्पादनहरू खोज्नुहोस् र विस्तृत PDF विवरण डाउनलोड गर्नुहोस्।",
         spec_filter_title: "बायो-स्यान्ड फिल्टर",
         spec_bench_title: "सिमेन्ट बेन्च",
         spec_plow_title: "बेड मेकर",
@@ -504,7 +568,7 @@ const translations = {
         rcc_table_title: "वातावरणमैत्री आरसीसी कङ्क्रिट टेबल सेट",
         rcc_table_subtitle: "पार्क, क्याम्पस, प्रतीक्षालय र सामुदायिक स्थानका लागि पूर्ण टेबल र बेन्च समाधान।",
         rcc_table_category: "बाहिरी सार्वजनिक फर्निचर",
-        rcc_table_card_title: "हेभी-ड्युटी कङ्क्रिट टेबल सेट",
+        rcc_table_card_title: "कङ्क्रिट टेबल सेट",
         rcc_table_desc_1: "दीपक सप्लायर्स, उर्लाबारी-७, मोरङद्वारा उपलब्ध। यो आरसीसी कङ्क्रिट टेबल सेट सार्वजनिक र सामुदायिक स्थानका लागि बलियो, मौसम प्रतिरोधी बाहिरी फर्निचर समाधान हो।",
         rcc_table_desc_2: "स्टीलले मजबुत बनाइएको कङ्क्रिट र स्थानीय सामग्री प्रयोग गरी तयार गरिएको यो सेट काठ वा धातुको फर्निचरको टिकाउ, कम मर्मत लाग्ने र किफायती विकल्प हो।",
         bench_gallery_title: "ग्यालरी",
@@ -630,6 +694,30 @@ const translations = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    // Progressive enhancement: content stays visible without JavaScript or observer support.
+    const revealTargets = document.querySelectorAll('.showcase-home .home-section-heading, .showcase-product-card, .showcase-home .home-about-media, .showcase-home .home-about-copy, .showcase-home .home-value-card, .showcase-home .home-solution-card');
+    if ('IntersectionObserver' in window && !motionPreference.matches) {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('motion-pending');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.08 });
+        revealTargets.forEach((element, index) => {
+            element.style.setProperty('--reveal-delay', `${index % 3 * 70}ms`);
+            element.classList.add('motion-reveal', 'motion-pending');
+            observer.observe(element);
+        });
+        motionPreference.addEventListener('change', () => {
+            if (motionPreference.matches) {
+                observer.disconnect();
+                revealTargets.forEach(element => element.classList.remove('motion-pending'));
+            }
+        });
+    }
     const navbar = document.querySelector('.navbar');
 
     function updateNavbarScrollState() {
@@ -673,6 +761,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         localStorage.setItem('lang', lang);
         document.documentElement.lang = lang;
+        document.dispatchEvent(new Event('languagechange'));
     }
 
     // Initialize Language
@@ -687,6 +776,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Mobile Menu Toggle ---
+    const documentLibrary = document.querySelector('.document-library');
+    if (documentLibrary) {
+        const search = documentLibrary.querySelector('#document-search');
+        const rows = [...documentLibrary.querySelectorAll('.document-row')];
+        const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
+        const filterDocuments = () => {
+            const words = normalize(search.value).split(/\s+/).filter(Boolean);
+            let count = 0;
+            rows.forEach(row => {
+                const translatedNames = [...row.querySelectorAll('.document-info [data-i18n]')].flatMap(element =>
+                    Object.values(translations).map(language => language[element.dataset.i18n] || '')
+                );
+                const text = normalize([row.dataset.search, ...translatedNames].join(' '));
+                const matches = words.every(word => text.includes(word));
+                row.hidden = !matches;
+                if (matches) count++;
+            });
+            const language = translations[document.documentElement.lang] || translations.en;
+            documentLibrary.querySelector('#document-count').textContent = language.docs_count.replace('{count}', count);
+            documentLibrary.querySelector('.document-empty').hidden = count > 0;
+        };
+        search.addEventListener('input', filterDocuments);
+        document.addEventListener('languagechange', filterDocuments);
+        filterDocuments();
+    }
     const mobileBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
 
@@ -720,23 +834,141 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Smooth Scroll for Anchor Links ---
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
-                if (navLinks.classList.contains('active')) {
-                    navLinks.classList.remove('active');
-                    if (mobileBtn) {
-                        mobileBtn.textContent = '☰';
-                        mobileBtn.setAttribute('aria-expanded', 'false');
-                    }
-                }
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && navLinks?.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            mobileBtn.textContent = '☰';
+            mobileBtn.setAttribute('aria-expanded', 'false');
+            mobileBtn.focus();
+        }
+    });
+
+    // Native fragment navigation preserves history, deep links and keyboard focus.
+    // CSS handles smooth scrolling and the reduced-motion preference.
+    const catalogue = document.querySelector('.product-catalogue');
+    const productCarousel = document.querySelector('.product-carousel');
+    if (productCarousel) {
+        const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+        const originals = [...productCarousel.children];
+        // Repeat the cards once so wrapping lands on an identical visible frame.
+        const copies = originals.map(card => {
+            const copy = card.cloneNode(true);
+            copy.setAttribute('aria-hidden', 'true');
+            copy.setAttribute('tabindex', '-1');
+            productCarousel.append(copy);
+            return copy;
+        });
+        productCarousel.classList.add('is-looping');
+        let hovered = false;
+        let visible = true;
+        let previousTime = 0;
+        let position = productCarousel.scrollLeft;
+        const updateMotion = () => {
+            copies.forEach(copy => { copy.hidden = reducedMotion.matches; });
+            productCarousel.classList.toggle('is-looping', !reducedMotion.matches);
+        };
+        reducedMotion.addEventListener('change', updateMotion);
+        updateMotion();
+        const move = direction => {
+            const distance = originals[0].getBoundingClientRect().width + parseFloat(getComputedStyle(productCarousel).columnGap);
+            const cycle = copies[0].offsetLeft - originals[0].offsetLeft;
+            if (!reducedMotion.matches && direction < 0 && productCarousel.scrollLeft < distance) {
+                productCarousel.scrollLeft += cycle;
+            }
+            productCarousel.scrollBy({ left: direction * distance, behavior: reducedMotion.matches ? 'instant' : 'smooth' });
+        };
+        [...originals, ...copies].forEach(card => {
+            card.addEventListener('pointerenter', event => {
+                if (event.pointerType === 'mouse' || event.pointerType === 'pen') hovered = true;
+            });
+            card.addEventListener('pointerleave', () => { hovered = false; });
+        });
+        productCarousel.addEventListener('keydown', event => {
+            if (event.target === productCarousel && ['ArrowLeft', 'ArrowRight'].includes(event.key)) {
+                event.preventDefault();
+                move(event.key === 'ArrowLeft' ? -1 : 1);
             }
         });
-    });
+        if ('IntersectionObserver' in window) {
+            new IntersectionObserver(entries => { visible = entries[0].isIntersecting; }).observe(productCarousel);
+        }
+        const animate = time => {
+            const elapsed = Math.min(time - (previousTime || time), 50);
+            previousTime = time;
+            const focused = productCarousel.querySelector('.showcase-product-card:focus-visible');
+            if (!hovered && !focused && visible && !document.hidden && !reducedMotion.matches) {
+                const cycle = copies[0].offsetLeft - originals[0].offsetLeft;
+                if (Math.abs(position - productCarousel.scrollLeft) > 2) position = productCarousel.scrollLeft;
+                position += elapsed * 0.025;
+                if (cycle > 0) position %= cycle;
+                productCarousel.scrollLeft = position;
+            } else {
+                position = productCarousel.scrollLeft;
+            }
+            requestAnimationFrame(animate);
+        };
+        requestAnimationFrame(animate);
+    }
+    const categoryNav = document.querySelector('.catalogue-nav');
+    if (categoryNav?.classList.contains('product-page-nav')) {
+        const measureProductHeader = () => {
+            document.documentElement.style.setProperty('--site-header-height', `${navbar?.getBoundingClientRect().height || 0}px`);
+        };
+        if (navbar && 'ResizeObserver' in window) {
+            new ResizeObserver(measureProductHeader).observe(navbar);
+        }
+        window.addEventListener('resize', measureProductHeader, { passive: true });
+        measureProductHeader();
+        const currentLink = categoryNav.querySelector('.is-current');
+        if (currentLink) {
+            const container = currentLink.parentElement;
+            container.scrollLeft = currentLink.offsetLeft - container.offsetLeft - (container.clientWidth - currentLink.offsetWidth) / 2;
+        }
+    }
+    if (catalogue && categoryNav) {
+        const sections = [...catalogue.querySelectorAll('.catalogue-section')];
+        const links = [...categoryNav.querySelectorAll('a')];
+        let scheduled = false;
+        function updateCategory() {
+            scheduled = false;
+            const edge = categoryNav.getBoundingClientRect().bottom + 32;
+            const bounds = catalogue.getBoundingClientRect();
+            let current = null;
+            if (bounds.top <= edge && bounds.bottom > edge) {
+                current = sections[0];
+                sections.forEach(section => {
+                    if (section.getBoundingClientRect().top <= edge) current = section;
+                });
+            }
+            links.forEach(link => {
+                const active = link.hash === `#${current?.id}`;
+                link.classList.toggle('is-current', active);
+                if (active) link.setAttribute('aria-current', 'location');
+                else link.removeAttribute('aria-current');
+                if (active && categoryNav.dataset.current !== current.id) {
+                    const container = link.parentElement;
+                    container.scrollTo({ left: link.offsetLeft - container.offsetLeft - (container.clientWidth - link.offsetWidth) / 2, behavior: 'instant' });
+                    categoryNav.dataset.current = current.id;
+                }
+            });
+            if (!current) delete categoryNav.dataset.current;
+        }
+        function scheduleUpdate() {
+            if (!scheduled) { scheduled = true; requestAnimationFrame(updateCategory); }
+        }
+        function measureNavigation() {
+            const headerHeight = navbar?.getBoundingClientRect().height || 0;
+            document.documentElement.style.setProperty('--site-header-height', `${headerHeight}px`);
+            document.documentElement.style.setProperty('--category-nav-height', `${categoryNav.getBoundingClientRect().height}px`);
+            scheduleUpdate();
+        }
+        if ('ResizeObserver' in window) {
+            const resizeObserver = new ResizeObserver(measureNavigation);
+            if (navbar) resizeObserver.observe(navbar);
+            resizeObserver.observe(categoryNav);
+        }
+        window.addEventListener('scroll', scheduleUpdate, { passive: true });
+        window.addEventListener('resize', measureNavigation, { passive: true });
+        measureNavigation();
+    }
 });

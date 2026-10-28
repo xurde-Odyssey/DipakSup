@@ -27,7 +27,7 @@
     <meta name="twitter:description"
         content="Water filtration, bio-sand filters and agricultural tools in Urlabari, Nepal.">
     <meta name="twitter:image" content="https://dipaksuppliers.com.np/images/logo.png">
-    <link rel="preload" as="image" href="/images/backg.png" fetchpriority="high">
+    <link rel="preload" as="image" href="/images/Bio.jpg" fetchpriority="high">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg">
     <link rel="icon" type="image/x-icon" sizes="48x48" href="/favicon.ico">
@@ -130,7 +130,7 @@
     </script>
 </head>
 
-<body class="has-mobile-cta">
+<body class="has-mobile-cta showcase-home">
 
     <!-- Navigation -->
     <nav class="navbar" aria-label="Primary navigation">
@@ -140,11 +140,9 @@
             </a>
 
             <ul class="nav-links">
-                <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
-                <li><a href="bio-sand-filter.html" data-i18n="nav_filters">Biosand filter</a></li>
-                <li><a href="agricultural-tools.html" data-i18n="nav_tools">Agricultural Tools</a></li>
-                <li><a href="cement-bench.html" data-i18n="nav_benches">Cement Benches</a></li>
-                <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                <li><a href="index.html" class="active" aria-current="page" data-i18n="nav_home">Home</a></li>
+                <li><a href="#products" data-i18n="nav_products">Product</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact_short">Contact</a></li>
                 <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
             </ul>
             <div class="nav-controls">
@@ -157,13 +155,11 @@
     <main>
     <!-- Hero Section -->
     <section class="home-hero">
-        <div class="home-hero-bg">
-            <img src="images/backg.png" alt="Dipak Suppliers water and farming solutions" width="612" height="408" decoding="async" fetchpriority="high">
-        </div>
-        <div class="container">
+        <div class="container hero-layout">
             <div class="home-hero-copy">
-                <h1 data-i18n="hero_title">दीपक सप्लायर्स</h1>
-                <p data-i18n="hero_desc">We provide high-quality bio-sand filters and agricultural tools for your community. Certified solutions for health and productivity.</p>
+                <h1 data-i18n="showcase_title">Better water. Better farming. Better everyday.</h1>
+                <p class="hero-slogan" data-i18n="showcase_slogan">Quality you trust, Product you need.</p>
+                <p data-i18n="showcase_desc">Practical water filters, dependable farm tools, and durable outdoor seating. Find the right solution with support from your local team.</p>
                 <div class="home-hero-actions">
                     <a href="#products" class="btn btn-primary btn-large">
                         <span data-i18n="hero_cta_products">हाम्रो उत्पादनहरू हेर्नुहोस्</span>
@@ -174,6 +170,7 @@
                     </a>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -195,6 +192,156 @@
             </div>
         </div>
     </section>
+
+    <section id="products" class="home-hot-products section-padding">
+        <div class="container">
+            <div class="home-section-heading text-center">
+                <h2 class="section-title" data-i18n="showcase_products">Built for the way you live and work.</h2>
+                <p data-i18n="hot_products_desc">Popular products customers ask for first.</p>
+            </div>
+            <div id="popular-products" class="showcase-product-grid product-carousel" role="list" aria-label="Popular products" tabindex="0">
+                <a class="showcase-product-card category-card" href="bio-sand-filter.html" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">01</span><img src="images/Bio.jpg" alt="" width="1067" height="1600" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="product_filter_title">Bio-Sand Filter</h3><p data-i18n="showcase_filter">Simple filtration for daily household use.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="agricultural-tools.html#plow" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">02</span><img src="images/bedmaker.webp" alt="" width="1280" height="960" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="tools_card_plow_title">Bed Maker</h3><p data-i18n="tools_card_plow_desc">A modern agricultural tool useful for preparing land for cultivation.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="agricultural-tools.html#wheelbarrow" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">03</span><img src="images/wheelbarrow.png" alt="" width="490" height="364" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="tools_card_wheelbarrow_title">Strong Urbana Wheelbarrow</h3><p data-i18n="tools_card_wheelbarrow_desc">Useful for transporting construction materials, sand, soil, and garden tools.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="agricultural-tools.html#fork" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">04</span><img src="images/korne.jpeg" alt="" width="1027" height="1600" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="tools_card_fork_title">Container Hoe Fork</h3><p data-i18n="tools_card_fork_desc">A strong multi-prong farming tool used to loosen soil, control weeds, and prepare seed beds.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="agricultural-tools.html#dhwani" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">05</span><img src="images/dhwani.jpeg" alt="" width="284" height="264" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="tools_card_dhwani_title">Dhwani Yantra</h3><p data-i18n="tools_card_dhwani_desc">Produces loud sound to scare away monkeys, elephants, and other wild animals.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="agricultural-tools.html#urea" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">06</span><img src="images/Urea.webp" alt="" width="960" height="1280" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="tools_card_urea_title">Urea Applicator</h3><p data-i18n="tools_card_urea_desc">A field tool designed for urea application that helps improve irrigation efficiency and crop output.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="agricultural-tools.html#chulo" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">07</span><img src="images/chulo.webp" alt="" width="1020" height="1541" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="tools_card_chulo_title">Chulo</h3><p data-i18n="tools_card_chulo_desc">This steel stove is a strong and durable cooking appliance made of high-quality heavy metal. Weighing around 11 kg, this stove can be used for a long time due to its sturdy structure and is suitable for daily use.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="cement-bench.html" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">08</span><img src="images/Benchee.JPG" alt="" width="1600" height="1200" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="nav_benches">Cement Benches</h3><p data-i18n="showcase_bench">A lasting place to sit, gather, and connect.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+                <a class="showcase-product-card category-card" href="cement-bench.html#rcc-table-set" role="listitem">
+                    <div class="showcase-product-image"><span class="product-index" aria-hidden="true">09</span><img src="images/rcctableset.jpeg" alt="" width="1200" height="896" loading="lazy" decoding="async"></div>
+                    <div class="showcase-product-copy"><h3 data-i18n="rcc_table_card_title">Concrete Table Set</h3><p data-i18n="rcc_table_subtitle">A complete table-and-bench solution for parks, campuses, waiting areas, and community spaces.</p><span class="showcase-product-link"><span data-i18n="catalogue_full_details">View full details</span><span aria-hidden="true">↗</span></span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="product-catalogue">
+        <nav class="catalogue-nav" aria-label="Product categories">
+            <div class="container catalogue-nav-links">
+                <a href="#biosand-filter" data-i18n="product_filter_title">Bio-Sand Filter</a>
+                <a href="#farm-tools" data-i18n="product_tools_title">Agricultural Tools</a>
+                <a href="#cement-benches" data-i18n="nav_benches">Cement Benches</a>
+                <a href="#rcc-table-set" data-i18n="rcc_table_card_title">Concrete Table Set</a>
+            </div>
+        </nav>
+        <section id="biosand-filter" class="catalogue-section section-padding" tabindex="-1" aria-labelledby="biosand-filter-title">
+            <div class="container catalogue-layout">
+                <div class="catalogue-media"><span class="catalogue-number" aria-hidden="true">01 / 04</span><img src="images/Bio.jpg" alt="Bio-Sand Filter" width="1067" height="1600" loading="lazy" decoding="async"></div>
+                <div class="catalogue-copy">
+                    <h2 id="biosand-filter-title" data-i18n="product_filter_title">Bio-Sand Filter</h2>
+                    <p data-i18n="product_filter_desc">Natural household water filtration designed to provide safer and cleaner drinking water.</p>
+                    <ul class="catalogue-benefits">
+                        <li><span aria-hidden="true">✓</span><span data-i18n="benefit_1_title">Low Cost</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="benefit_2_title">No Chemicals</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="benefit_3_title">Easy Maintenance</span></li>
+                    </ul>
+                    <details class="catalogue-specs">
+                        <summary data-i18n="specs_title">Product Specifications</summary>
+                        <p data-i18n="catalogue_filter_specs">Household use · Sand and gravel filtration · Daily care guide available</p>
+                        <a href="images/Pdf_files/biosand-filter.pdf" target="_blank" rel="noopener noreferrer" data-i18n="download_spec_btn">View Product Specification</a>
+                    </details>
+                    <div class="catalogue-actions">
+                        <a class="btn btn-primary" href="https://wa.me/9779804094535?text=I%20would%20like%20details%20about%20Bio-Sand%20Filter" target="_blank" rel="noopener noreferrer" data-i18n="cta_inquiry">Inquiry About Orders</a>
+                        <a class="catalogue-detail-link" href="bio-sand-filter.html"><span data-i18n="catalogue_full_details">View full details</span> <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="farm-tools" class="catalogue-section section-padding" tabindex="-1" aria-labelledby="farm-tools-title">
+            <div class="container catalogue-layout">
+                <div class="catalogue-media"><span class="catalogue-number" aria-hidden="true">02 / 04</span><img src="images/bedmaker.webp" alt="Agricultural Tools" width="1280" height="960" loading="lazy" decoding="async"></div>
+                <div class="catalogue-copy">
+                    <h2 id="farm-tools-title" data-i18n="product_tools_title">Agricultural Tools</h2>
+                    <p data-i18n="product_tools_desc">Durable, practical tools designed for local farming work and daily field use.</p>
+                    <ul class="catalogue-benefits">
+                        <li><span aria-hidden="true">✓</span><span data-i18n="tools_card_plow_title">Bed Maker</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="tools_card_wheelbarrow_title">Strong Urbana Wheelbarrow</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="tools_card_urea_title">Urea Applicator</span></li>
+                    </ul>
+                    <details class="catalogue-specs">
+                        <summary data-i18n="specs_title">Product Specifications</summary>
+                        <p data-i18n="catalogue_tool_specs">Bed preparation · Material transport · Fertilizer application</p>
+                        <a href="images/Pdf_files/krishi-halo.pdf" target="_blank" rel="noopener noreferrer" data-i18n="download_spec_btn">View Product Specification</a>
+                    </details>
+                    <div class="catalogue-actions">
+                        <a class="btn btn-primary" href="https://wa.me/9779804094535?text=I%20would%20like%20details%20about%20Agricultural%20Tools" target="_blank" rel="noopener noreferrer" data-i18n="cta_inquiry">Inquiry About Orders</a>
+                        <a class="catalogue-detail-link" href="agricultural-tools.html"><span data-i18n="catalogue_full_details">View full details</span> <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cement-benches" class="catalogue-section section-padding" tabindex="-1" aria-labelledby="cement-benches-title">
+            <div class="container catalogue-layout">
+                <div class="catalogue-media"><span class="catalogue-number" aria-hidden="true">03 / 04</span><img src="images/Benchee.JPG" alt="Cement Benches" width="1600" height="1200" loading="lazy" decoding="async"></div>
+                <div class="catalogue-copy">
+                    <h2 id="cement-benches-title" data-i18n="nav_benches">Cement Benches</h2>
+                    <p data-i18n="product_bench_desc">Strong concrete benches prepared for gardens, homes, parks, and public spaces.</p>
+                    <ul class="catalogue-benefits">
+                        <li><span aria-hidden="true">✓</span><span data-i18n="bench_benefit_1_title">Weather Resistant</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="bench_benefit_2_title">Highly Durable</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="bench_benefit_4_title">Custom Design Options</span></li>
+                    </ul>
+                    <details class="catalogue-specs">
+                        <summary data-i18n="specs_title">Product Specifications</summary>
+                        <p data-i18n="catalogue_bench_specs">Concrete construction · Outdoor use · Finish options available</p>
+                        <a href="images/Pdf_files/cement-bench.pdf" target="_blank" rel="noopener noreferrer" data-i18n="download_spec_btn">View Product Specification</a>
+                    </details>
+                    <div class="catalogue-actions">
+                        <a class="btn btn-primary" href="https://wa.me/9779804094535?text=I%20would%20like%20details%20about%20Cement%20Benches" target="_blank" rel="noopener noreferrer" data-i18n="cta_inquiry">Inquiry About Orders</a>
+                        <a class="catalogue-detail-link" href="cement-bench.html"><span data-i18n="catalogue_full_details">View full details</span> <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rcc-table-set" class="catalogue-section section-padding" tabindex="-1" aria-labelledby="rcc-table-set-title">
+            <div class="container catalogue-layout">
+                <div class="catalogue-media"><span class="catalogue-number" aria-hidden="true">04 / 04</span><img src="images/rcctableset.jpeg" alt="Eco-Friendly RCC Concrete Table Set" width="1200" height="896" loading="lazy" decoding="async"></div>
+                <div class="catalogue-copy">
+                    <h2 id="rcc-table-set-title" data-i18n="rcc_table_title">Eco-Friendly RCC Concrete Table Set</h2>
+                    <p data-i18n="rcc_table_subtitle">A complete table-and-bench solution for parks, campuses, waiting areas, and community spaces.</p>
+                    <ul class="catalogue-benefits">
+                        <li><span aria-hidden="true">✓</span><span data-i18n="bench_benefit_1_title">Weather Resistant</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="bench_benefit_2_title">Highly Durable</span></li>
+                        <li><span aria-hidden="true">✓</span><span data-i18n="benefit_3_title">Easy Maintenance</span></li>
+                    </ul>
+                    <details class="catalogue-specs">
+                        <summary data-i18n="specs_title">Product Specifications</summary>
+                        <p data-i18n="rcc_table_desc_2">Built with steel-reinforced concrete and locally sourced materials, it is a durable, low-maintenance, and cost-effective alternative to traditional wooden or metal furniture.</p>
+                        <a href="cement-bench.html#rcc-table-set" data-i18n="download_spec_btn">View Product Specification</a>
+                    </details>
+                    <div class="catalogue-actions">
+                        <a class="btn btn-primary" href="https://wa.me/9779804094535?text=I%20would%20like%20details%20about%20the%20RCC%20Concrete%20Table%20Set" target="_blank" rel="noopener noreferrer" data-i18n="cta_inquiry">Inquiry About Orders</a>
+                        <a class="catalogue-detail-link" href="cement-bench.html#rcc-table-set"><span data-i18n="catalogue_full_details">View full details</span> <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <section class="home-support-section section-padding">
         <div class="container">
@@ -281,85 +428,6 @@
         </div>
     </section>
 
-    <section id="products" class="home-hot-products section-padding">
-        <div class="container">
-            <div class="home-section-heading text-center">
-                <span class="contact-strip-badge" data-i18n="hot_products_title">Hot Products</span>
-                <h2 class="section-title">Products Customers Ask For First</h2>
-                <p data-i18n="hot_products_desc">Popular products customers ask for first.</p>
-            </div>
-            <div class="home-bento-grid">
-                <article class="home-bento-card featured">
-                    <img src="images/bedmaker.webp" alt="Bed Maker agricultural tool" width="1280" height="960" loading="lazy" decoding="async">
-                    <div class="home-bento-overlay">
-                        <span>Best Seller</span>
-                        <h3 data-i18n="hot_label_plow">Bed Maker</h3>
-                        <p>Efficient bed preparation for local farms.</p>
-                        <a href="agricultural-tools.html" class="btn btn-primary" data-i18n="product_view_details">View Details</a>
-                    </div>
-                </article>
-                <article class="home-bento-card wide">
-                    <img src="images/Benchee.JPG" alt="Cement bench for outdoor seating" width="1600" height="1200" loading="lazy" decoding="async">
-                    <div class="home-bento-overlay hover-reveal">
-                        <h3 data-i18n="hot_label_bench">Cement Bench</h3>
-                        <p>Strong, weather-resistant seating for public and garden spaces.</p>
-                        <a href="cement-bench.html" class="btn btn-primary" data-i18n="product_view_details">View Details</a>
-                    </div>
-                </article>
-                <article class="home-bento-card mini">
-                    <div>
-                        <h3 data-i18n="hot_label_bench">Cement Bench</h3>
-                        <p>Strong public and garden seating.</p>
-                    </div>
-                    <a href="cement-bench.html" aria-label="View Cement Bench"><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
-                </article>
-                <article class="home-bento-card mini">
-                    <div>
-                        <h3 data-i18n="hot_label_filter">Bio-Sand Filter</h3>
-                        <p>Household water purification.</p>
-                    </div>
-                    <a href="bio-sand-filter.html" aria-label="View Bio-Sand Filter"><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product Snapshot -->
-    <section class="home-solutions-section section-padding">
-        <div class="container">
-            <div class="home-section-heading">
-                <h2 class="section-title" data-i18n="products_snapshot_title">हाम्रो समाधान</h2>
-                <p>Tailored products for water, farming, and durable outdoor infrastructure.</p>
-            </div>
-            <div class="home-solutions-grid">
-                <article class="home-solution-card">
-                    <img src="images/Bio.jpg" alt="Bio-sand water filter" width="1067" height="1600" loading="lazy" decoding="async">
-                    <div>
-                        <h3 data-i18n="product_filter_title">बायो-स्यान्ड फिल्टर</h3>
-                        <p data-i18n="product_filter_desc">Natural household water filtration designed to provide safer and cleaner drinking water.</p>
-                        <a href="bio-sand-filter.html" data-i18n="product_view_details">View Details</a>
-                    </div>
-                </article>
-                <article class="home-solution-card">
-                    <img src="images/halo.webp" alt="Agricultural tools from Dipak Suppliers" width="864" height="1184" loading="lazy" decoding="async">
-                    <div>
-                        <h3 data-i18n="product_tools_title">कृषि उपकरणहरू</h3>
-                        <p data-i18n="product_tools_desc">Durable, practical tools designed for local farming work and daily field use.</p>
-                        <a href="agricultural-tools.html" data-i18n="product_view_details">View Details</a>
-                    </div>
-                </article>
-                <article class="home-solution-card">
-                    <img src="images/Benchee.JPG" alt="Cement bench for garden and public spaces" width="1600" height="1200" loading="lazy" decoding="async">
-                    <div>
-                        <h3 data-i18n="product_bench_title">सिमेन्ट बेन्च</h3>
-                        <p data-i18n="product_bench_desc">Strong concrete benches prepared for gardens, homes, parks, and public spaces.</p>
-                        <a href="cement-bench.html" data-i18n="product_view_details">View Details</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
     <section class="home-local-pages section-padding">
         <div class="container">
             <div class="home-section-heading">
@@ -386,127 +454,87 @@
                 </p>
             </div>
 
-            <div class="specs-table-card">
-                <div class="specs-table-heading">
-                    <h3 data-i18n="specs_title">Technical Specifications</h3>
-                    <p>Download the detailed PDF catalogs for our technical installations.</p>
+            <div class="document-library">
+                <div class="document-toolbar">
+                    <label for="document-search" data-i18n="docs_search">Search products by name or category</label>
+                    <input id="document-search" type="search" data-i18n-placeholder="docs_search_placeholder" placeholder="Search products or categories…" aria-controls="document-results">
+                    <p id="document-count" role="status" aria-live="polite" aria-atomic="true"></p>
                 </div>
-                <div class="specs-table-scroll">
-                    <table class="specs-table">
-                        <thead>
-                            <tr>
-                                <th>Product Name</th>
-                                <th>Category</th>
-                                <th>Last Updated</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-i18n="spec_filter_title">Bio-Sand Filter</td>
-                                <td>Water Filtration</td>
-                                <td>Jan 2024</td>
-                                <td>
-                                    <div class="spec-action-links">
-                                        <a href="/images/Pdf_files/biosand-filter.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Bio-Sand Filter PDF">
-                                            <i class="fas fa-eye" aria-hidden="true"></i>
-                                            <span data-i18n="spec_view">View</span>
-                                        </a>
-                                        <a href="/images/Pdf_files/biosand-filter.pdf" download class="spec-download-link" aria-label="Download Bio-Sand Filter PDF">
-                                            <i class="fas fa-download" aria-hidden="true"></i>
-                                            <span data-i18n="spec_download">Download</span>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td data-i18n="spec_plow_title">Bed Maker</td>
-                                <td>Agricultural Machinery</td>
-                                <td>Dec 2023</td>
-                                <td>
-                                    <div class="spec-action-links">
-                                        <a href="/images/Pdf_files/krishi-halo.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Bed Maker PDF">
-                                            <i class="fas fa-eye" aria-hidden="true"></i>
-                                            <span data-i18n="spec_view">View</span>
-                                        </a>
-                                        <a href="/images/Pdf_files/krishi-halo.pdf" download class="spec-download-link" aria-label="Download Bed Maker PDF">
-                                            <i class="fas fa-download" aria-hidden="true"></i>
-                                            <span data-i18n="spec_download">Download</span>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td data-i18n="spec_dhwani_title">Dhwani Yantra</td>
-                                <td>Agricultural Machinery</td>
-                                <td>Feb 2024</td>
-                                <td>
-                                    <div class="spec-action-links">
-                                        <a href="/images/Pdf_files/dhwani-yantra.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Dhwani Yantra PDF">
-                                            <i class="fas fa-eye" aria-hidden="true"></i>
-                                            <span data-i18n="spec_view">View</span>
-                                        </a>
-                                        <a href="/images/Pdf_files/dhwani-yantra.pdf" download class="spec-download-link" aria-label="Download Dhwani Yantra PDF">
-                                            <i class="fas fa-download" aria-hidden="true"></i>
-                                            <span data-i18n="spec_download">Download</span>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td data-i18n="spec_bench_title">Cement Bench</td>
-                                <td>Cement Products</td>
-                                <td>Jan 2024</td>
-                                <td>
-                                    <div class="spec-action-links">
-                                        <a href="/images/Pdf_files/cement-bench.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Cement Bench PDF">
-                                            <i class="fas fa-eye" aria-hidden="true"></i>
-                                            <span data-i18n="spec_view">View</span>
-                                        </a>
-                                        <a href="/images/Pdf_files/cement-bench.pdf" download class="spec-download-link" aria-label="Download Cement Bench PDF">
-                                            <i class="fas fa-download" aria-hidden="true"></i>
-                                            <span data-i18n="spec_download">Download</span>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td data-i18n="spec_wheelbarrow_title">Strong Urbana Wheelbarrow</td>
-                                <td>Agricultural Machinery</td>
-                                <td>Jan 2024</td>
-                                <td>
-                                    <div class="spec-action-links">
-                                        <a href="/images/Pdf_files/urbana-wheelbarrow.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Strong Urbana Wheelbarrow PDF">
-                                            <i class="fas fa-eye" aria-hidden="true"></i>
-                                            <span data-i18n="spec_view">View</span>
-                                        </a>
-                                        <a href="/images/Pdf_files/urbana-wheelbarrow.pdf" download class="spec-download-link" aria-label="Download Strong Urbana Wheelbarrow PDF">
-                                            <i class="fas fa-download" aria-hidden="true"></i>
-                                            <span data-i18n="spec_download">Download</span>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Product Proposal</td>
-                                <td>Water Filtration</td>
-                                <td>Aug 2026</td>
-                                <td>
-                                    <div class="spec-action-links">
-                                        <a href="/images/Pdf_files/proposal.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Product Proposal PDF">
-                                            <i class="fas fa-eye" aria-hidden="true"></i>
-                                            <span data-i18n="spec_view">View</span>
-                                        </a>
-                                        <a href="/images/Pdf_files/proposal.pdf" download class="spec-download-link" aria-label="Download Product Proposal PDF">
-                                            <i class="fas fa-download" aria-hidden="true"></i>
-                                            <span data-i18n="spec_download">Download</span>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div id="document-results">
+                    <article class="document-row" data-category="water" data-search="Bio-Sand Filter Water Filtration">
+                        <div class="document-thumbnail"><img src="images/Bio.jpg" alt="" width="80" height="80" loading="lazy" decoding="async"></div>
+                        <div class="document-info">
+                            <h3 data-i18n="spec_filter_title">Bio-Sand Filter</h3>
+                            <p data-i18n="product_filter_desc">Natural household water filtration designed to provide safer and cleaner drinking water.</p>
+                            <div class="document-meta"><span class="document-category" data-i18n="docs_category_water">Water Filtration</span><span><span data-i18n="docs_updated">Last updated</span>: <time>Jan 2024</time></span></div>
+                        </div>
+                        <div class="document-actions">
+                            <a href="/images/Pdf_files/biosand-filter.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Bio-Sand Filter PDF"><i class="fas fa-eye" aria-hidden="true"></i><span data-i18n="docs_view">View PDF</span></a>
+                            <div class="document-download"><a href="/images/Pdf_files/biosand-filter.pdf" download class="spec-download-link" aria-label="Download Bio-Sand Filter PDF"><i class="fas fa-download" aria-hidden="true"></i><span data-i18n="spec_download">Download</span></a><small>PDF · 1.4 MB</small></div>
+                        </div>
+                    </article>
+                    <article class="document-row" data-category="agriculture" data-search="Bed Maker Agricultural Machinery">
+                        <div class="document-thumbnail"><img src="images/bedmaker.webp" alt="" width="80" height="80" loading="lazy" decoding="async"></div>
+                        <div class="document-info">
+                            <h3 data-i18n="spec_plow_title">Bed Maker</h3>
+                            <p data-i18n="tools_card_plow_desc">A modern agricultural tool useful for preparing land for cultivation.</p>
+                            <div class="document-meta"><span class="document-category" data-i18n="docs_category_agriculture">Agricultural Machinery</span><span><span data-i18n="docs_updated">Last updated</span>: <time>Dec 2023</time></span></div>
+                        </div>
+                        <div class="document-actions">
+                            <a href="/images/Pdf_files/krishi-halo.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Bed Maker PDF"><i class="fas fa-eye" aria-hidden="true"></i><span data-i18n="docs_view">View PDF</span></a>
+                            <div class="document-download"><a href="/images/Pdf_files/krishi-halo.pdf" download class="spec-download-link" aria-label="Download Bed Maker PDF"><i class="fas fa-download" aria-hidden="true"></i><span data-i18n="spec_download">Download</span></a><small>PDF · 832 KB</small></div>
+                        </div>
+                    </article>
+                    <article class="document-row" data-category="agriculture" data-search="Dhwani Yantra Agricultural Machinery">
+                        <div class="document-thumbnail"><img src="images/dhwani.jpeg" alt="" width="80" height="80" loading="lazy" decoding="async"></div>
+                        <div class="document-info">
+                            <h3 data-i18n="spec_dhwani_title">Dhwani Yantra</h3>
+                            <p data-i18n="tools_card_dhwani_desc">Produces loud sound to scare away monkeys, elephants, and other wild animals.</p>
+                            <div class="document-meta"><span class="document-category" data-i18n="docs_category_agriculture">Agricultural Machinery</span><span><span data-i18n="docs_updated">Last updated</span>: <time>Feb 2024</time></span></div>
+                        </div>
+                        <div class="document-actions">
+                            <a href="/images/Pdf_files/dhwani-yantra.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Dhwani Yantra PDF"><i class="fas fa-eye" aria-hidden="true"></i><span data-i18n="docs_view">View PDF</span></a>
+                            <div class="document-download"><a href="/images/Pdf_files/dhwani-yantra.pdf" download class="spec-download-link" aria-label="Download Dhwani Yantra PDF"><i class="fas fa-download" aria-hidden="true"></i><span data-i18n="spec_download">Download</span></a><small>PDF · 721 KB</small></div>
+                        </div>
+                    </article>
+                    <article class="document-row" data-category="cement" data-search="Cement Bench Cement Products">
+                        <div class="document-thumbnail"><img src="images/Benchee.JPG" alt="" width="80" height="80" loading="lazy" decoding="async"></div>
+                        <div class="document-info">
+                            <h3 data-i18n="spec_bench_title">Cement Bench</h3>
+                            <p data-i18n="product_bench_desc">Strong concrete benches prepared for gardens, homes, parks, and public spaces.</p>
+                            <div class="document-meta"><span class="document-category" data-i18n="docs_category_cement">Cement Products</span><span><span data-i18n="docs_updated">Last updated</span>: <time>Jan 2024</time></span></div>
+                        </div>
+                        <div class="document-actions">
+                            <a href="/images/Pdf_files/cement-bench.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Cement Bench PDF"><i class="fas fa-eye" aria-hidden="true"></i><span data-i18n="docs_view">View PDF</span></a>
+                            <div class="document-download"><a href="/images/Pdf_files/cement-bench.pdf" download class="spec-download-link" aria-label="Download Cement Bench PDF"><i class="fas fa-download" aria-hidden="true"></i><span data-i18n="spec_download">Download</span></a><small>PDF · 786 KB</small></div>
+                        </div>
+                    </article>
+                    <article class="document-row" data-category="agriculture" data-search="Strong Urbana Wheelbarrow Agricultural Machinery">
+                        <div class="document-thumbnail"><img src="images/wheelbarrow.png" alt="" width="80" height="80" loading="lazy" decoding="async"></div>
+                        <div class="document-info">
+                            <h3 data-i18n="spec_wheelbarrow_title">Strong Urbana Wheelbarrow</h3>
+                            <p data-i18n="tools_card_wheelbarrow_desc">Useful for transporting construction materials, sand, soil, and garden tools.</p>
+                            <div class="document-meta"><span class="document-category" data-i18n="docs_category_agriculture">Agricultural Machinery</span><span><span data-i18n="docs_updated">Last updated</span>: <time>Jan 2024</time></span></div>
+                        </div>
+                        <div class="document-actions">
+                            <a href="/images/Pdf_files/urbana-wheelbarrow.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Strong Urbana Wheelbarrow PDF"><i class="fas fa-eye" aria-hidden="true"></i><span data-i18n="docs_view">View PDF</span></a>
+                            <div class="document-download"><a href="/images/Pdf_files/urbana-wheelbarrow.pdf" download class="spec-download-link" aria-label="Download Strong Urbana Wheelbarrow PDF"><i class="fas fa-download" aria-hidden="true"></i><span data-i18n="spec_download">Download</span></a><small>PDF · 10.0 MB</small></div>
+                        </div>
+                    </article>
+                    <article class="document-row" data-category="general" data-search="Product Proposal General Information">
+                        <div class="document-thumbnail"><span class="document-pdf-icon" aria-hidden="true"><i class="fas fa-file-pdf"></i><span>PDF</span></span></div>
+                        <div class="document-info">
+                            <h3 data-i18n="docs_proposal_title">Product Proposal</h3>
+                            <p data-i18n="docs_proposal_desc">An overview of our products and proposed solutions.</p>
+                            <div class="document-meta"><span class="document-category" data-i18n="docs_category_general">General Information</span><span><span data-i18n="docs_updated">Last updated</span>: <time>Aug 2026</time></span></div>
+                        </div>
+                        <div class="document-actions">
+                            <a href="/images/Pdf_files/proposal.pdf" target="_blank" rel="noopener noreferrer" class="spec-view-link" aria-label="View Product Proposal PDF"><i class="fas fa-eye" aria-hidden="true"></i><span data-i18n="docs_view">View PDF</span></a>
+                            <div class="document-download"><a href="/images/Pdf_files/proposal.pdf" download class="spec-download-link" aria-label="Download Product Proposal PDF"><i class="fas fa-download" aria-hidden="true"></i><span data-i18n="spec_download">Download</span></a><small>PDF · 10.7 MB</small></div>
+                        </div>
+                    </article>
                 </div>
+                <p class="document-empty" hidden data-i18n="docs_empty">No documents match. Try another product name or category.</p>
             </div>
         </div>
     </section>
